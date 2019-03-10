@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../biblioteka/include/Punkt.h
+iostream
+-
+cstdlib
+-
+ctime
+-
+random
+-
+
+C:/Users/Adam/Desktop/Analiza/biblioteka/src/Punkt.cpp
+Punkt.h
+C:/Users/Adam/Desktop/Analiza/biblioteka/src/Punkt.h
+
