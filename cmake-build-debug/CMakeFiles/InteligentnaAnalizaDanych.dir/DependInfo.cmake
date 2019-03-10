@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Studia/InteligentnaAnalizaDanych/program/include/Punkt.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj"
-  "D:/Studia/InteligentnaAnalizaDanych/program/src/Chodakowska.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
-  "D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj"
-  "D:/Studia/InteligentnaAnalizaDanych/program/src/main.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj"
+  "C:/Users/Adam/Desktop/Analiza/program/src/Chodakowska.cpp" "C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
+  "C:/Users/Adam/Desktop/Analiza/program/src/Perceptron.cpp" "C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj"
+  "C:/Users/Adam/Desktop/Analiza/program/src/Punkt.cpp" "C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj"
+  "C:/Users/Adam/Desktop/Analiza/program/src/Rysowanie.cpp" "C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj"
+  "C:/Users/Adam/Desktop/Analiza/program/src/main.cpp" "C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

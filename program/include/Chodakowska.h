@@ -7,8 +7,8 @@ private:
     bool odp;
 public:
     Chodakowska(float x,float y,bool odp);
-
-
+    float* getWej();
+    bool getOdp();
 };
 
 #endif //INTELIGENTNAANALIZADANYCH_CHODAKOWSKA_H

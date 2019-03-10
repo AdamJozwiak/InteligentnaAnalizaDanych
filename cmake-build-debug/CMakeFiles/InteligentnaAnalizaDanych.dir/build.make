@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Studia\InteligentnaAnalizaDanych
+CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Analiza
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Analiza\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/InteligentnaAnalizaDanych.dir/depend.make
@@ -56,81 +56,97 @@ include CMakeFiles/InteligentnaAnalizaDanych.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
 
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj: ../program/include/Punkt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\include\Punkt.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\program\include\Punkt.cpp
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj: ../program/src/Punkt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Punkt.cpp.obj -c C:\Users\Adam\Desktop\Analiza\program\src\Punkt.cpp
 
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\program\include\Punkt.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\include\Punkt.cpp.i
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Analiza\program\src\Punkt.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Punkt.cpp.i
 
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\program\include\Punkt.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\include\Punkt.cpp.s
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Analiza\program\src\Punkt.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Punkt.cpp.s
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: ../program/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\main.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\program\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\main.cpp.obj -c C:\Users\Adam\Desktop\Analiza\program\src\main.cpp
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\program\src\main.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Analiza\program\src\main.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\main.cpp.i
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\program\src\main.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Analiza\program\src\main.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\main.cpp.s
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj: ../program/src/Perceptron.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Perceptron.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\program\src\Perceptron.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Perceptron.cpp.obj -c C:\Users\Adam\Desktop\Analiza\program\src\Perceptron.cpp
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\program\src\Perceptron.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Perceptron.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Analiza\program\src\Perceptron.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Perceptron.cpp.i
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\program\src\Perceptron.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Perceptron.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Analiza\program\src\Perceptron.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Perceptron.cpp.s
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj: ../program/src/Chodakowska.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Chodakowska.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\program\src\Chodakowska.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Chodakowska.cpp.obj -c C:\Users\Adam\Desktop\Analiza\program\src\Chodakowska.cpp
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\program\src\Chodakowska.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Chodakowska.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Analiza\program\src\Chodakowska.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Chodakowska.cpp.i
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\program\src\Chodakowska.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Chodakowska.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Analiza\program\src\Chodakowska.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Chodakowska.cpp.s
+
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: ../program/src/Rysowanie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Rysowanie.cpp.obj -c C:\Users\Adam\Desktop\Analiza\program\src\Rysowanie.cpp
+
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Adam\Desktop\Analiza\program\src\Rysowanie.cpp > CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Rysowanie.cpp.i
+
+CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Adam\Desktop\Analiza\program\src\Rysowanie.cpp -o CMakeFiles\InteligentnaAnalizaDanych.dir\program\src\Rysowanie.cpp.s
 
 # Object files for target InteligentnaAnalizaDanych
 InteligentnaAnalizaDanych_OBJECTS = \
-"CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj" \
+"CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj" \
 "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj" \
 "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj" \
-"CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
+"CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj" \
+"CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj"
 
 # External object files for target InteligentnaAnalizaDanych
 InteligentnaAnalizaDanych_EXTERNAL_OBJECTS =
 
-InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj
+InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj
+InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/build.make
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/linklibs.rsp
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/objects1.rsp
 InteligentnaAnalizaDanych.exe: CMakeFiles/InteligentnaAnalizaDanych.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable InteligentnaAnalizaDanych.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable InteligentnaAnalizaDanych.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\InteligentnaAnalizaDanych.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +159,6 @@ CMakeFiles/InteligentnaAnalizaDanych.dir/clean:
 .PHONY : CMakeFiles/InteligentnaAnalizaDanych.dir/clean
 
 CMakeFiles/InteligentnaAnalizaDanych.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Studia\InteligentnaAnalizaDanych D:\Studia\InteligentnaAnalizaDanych D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles\InteligentnaAnalizaDanych.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Adam\Desktop\Analiza C:\Users\Adam\Desktop\Analiza C:\Users\Adam\Desktop\Analiza\cmake-build-debug C:\Users\Adam\Desktop\Analiza\cmake-build-debug C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles\InteligentnaAnalizaDanych.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/InteligentnaAnalizaDanych.dir/depend
 

@@ -5,8 +5,9 @@
 #include <ctime>
 #include <random>
 #include "Perceptron.h"
-//#define GNUPLOT_PATH "C:\\gnuplot\\bin"
-#define GNUPLOT_PATH "D:\\gnuplocik\\gnuplot\\bin"
+#include "Rysowanie.h"
+#define GNUPLOT_PATH "C:\\gnuplot\\bin"
+//#define GNUPLOT_PATH "D:\\gnuplocik\\gnuplot\\bin"
 using namespace std;
 
 double randValue() {
@@ -15,7 +16,7 @@ double randValue() {
 }
 
 int main() {
-    Gnuplot::set_GNUPlotPath( GNUPLOT_PATH );
+    /*Gnuplot::set_GNUPlotPath( GNUPLOT_PATH );
     Gnuplot main_plot;
     main_plot.set_xlabel( "Os X" );
     main_plot.set_ylabel( "Os Y" );
@@ -42,5 +43,8 @@ int main() {
     int c=a-b;
     cout<<c;
     //cout<<perceptron.random();
-    //getchar();
+    //getchar();*/
+
+    Rysowanie rysunek;
+    rysunek.rysowanie(100);
 }

@@ -8,8 +8,7 @@ include_directories(program/src)
 
 add_executable(InteligentnaAnalizaDanych
         program/include/Perceptron.h
-        program/include/Punkt.cpp
+        program/src/Punkt.cpp
         program/include/Punkt.h
-        program/src/gnuplot_i.hpp
         program/src/main.cpp
-        program/src/Perceptron.cpp program/include/Chodakowska.h program/src/Chodakowska.cpp program/src/Chodakowska.cpp)
+        program/src/Perceptron.cpp program/include/Chodakowska.h program/src/Chodakowska.cpp program/src/Chodakowska.cpp program/include/Rysowanie.h program/src/Rysowanie.cpp)

@@ -6,6 +6,12 @@ Chodakowska::Chodakowska(float x,float y, bool odp) {
     wej[1]=y;
     wej[2]=1;
     this->odp=odp;
-
 }
 
+float* Chodakowska::getWej() {
+    return wej;
+}
+
+bool Chodakowska::getOdp() {
+    return odp;
+}

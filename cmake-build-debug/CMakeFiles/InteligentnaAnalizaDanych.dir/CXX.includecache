@@ -6,17 +6,25 @@
 
 #IncludeRegexTransform: 
 
+../program/include/Chodakowska.h
+
 ../program/include/Perceptron.h
 cstdlib
 -
 ctime
 -
 
-D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.cpp
+../program/include/Rysowanie.h
+Chodakowska.h
+../program/include/Chodakowska.h
+ctime
+-
+cstdlib
+-
 Perceptron.h
-D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.h
+../program/include/Perceptron.h
 
-D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
+C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
 iostream
 -
 string
@@ -40,11 +48,11 @@ io.h
 unistd.h
 -
 
-D:/Studia/InteligentnaAnalizaDanych/program/src/main.cpp
+C:/Users/Adam/Desktop/Analiza/program/src/main.cpp
 iostream
 -
 gnuplot_i.hpp
-D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
+C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
 iostream
 -
 cstdlib
@@ -54,5 +62,7 @@ ctime
 random
 -
 Perceptron.h
-D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.h
+C:/Users/Adam/Desktop/Analiza/program/src/Perceptron.h
+Rysowanie.h
+C:/Users/Adam/Desktop/Analiza/program/src/Rysowanie.h
 

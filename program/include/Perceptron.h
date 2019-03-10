@@ -15,6 +15,5 @@ public:
     bool pozycja(float *wej);
     bool aktywacja(float suma);
     void trenuj(float *wej,bool odp);
-
 };
 #endif //ANALIZA_PERCEPTRON_H

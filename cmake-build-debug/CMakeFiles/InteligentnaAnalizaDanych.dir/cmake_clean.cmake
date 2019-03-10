@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj"
+  "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj"
   "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj"
   "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj"
   "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
+  "CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj"
   "InteligentnaAnalizaDanych.pdb"
   "InteligentnaAnalizaDanych.exe"
   "InteligentnaAnalizaDanych.exe.manifest"
