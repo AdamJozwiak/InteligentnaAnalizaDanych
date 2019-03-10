@@ -1,11 +1,3 @@
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/test.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/biblioteka/CMakeFiles/rebuild_cache.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/biblioteka/CMakeFiles/test.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/biblioteka/CMakeFiles/edit_cache.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/program/CMakeFiles/Program.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/program/CMakeFiles/rebuild_cache.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/program/CMakeFiles/test.dir
-C:/Users/Adam/Desktop/Analiza/cmake-build-debug/program/CMakeFiles/edit_cache.dir
+D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir
+D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/rebuild_cache.dir

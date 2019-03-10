@@ -1,0 +1,25 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/Studia/InteligentnaAnalizaDanych/program/include/Punkt.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj"
+  "D:/Studia/InteligentnaAnalizaDanych/program/src/Chodakowska.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj"
+  "D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj"
+  "D:/Studia/InteligentnaAnalizaDanych/program/src/main.cpp" "D:/Studia/InteligentnaAnalizaDanych/cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../program/include"
+  "../program/src"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

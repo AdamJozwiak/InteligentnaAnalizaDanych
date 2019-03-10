@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Adam/Desktop/Analiza/program
+# Install script for directory: D:/Studia/InteligentnaAnalizaDanych/program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

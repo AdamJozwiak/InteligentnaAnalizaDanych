@@ -4,7 +4,9 @@
 #include <cstdlib>
 #include <ctime>
 #include <random>
-#define GNUPLOT_PATH "C:\\gnuplot\\bin"
+#include "Perceptron.h"
+//#define GNUPLOT_PATH "C:\\gnuplot\\bin"
+#define GNUPLOT_PATH "D:\\gnuplocik\\gnuplot\\bin"
 using namespace std;
 
 double randValue() {
@@ -20,7 +22,7 @@ int main() {
     main_plot.set_grid();
 
     main_plot.set_style( "points" );
-    main_plot.set_pointsize( 2.0 );
+    main_plot.set_pointsize(10.0);
 
     vector<double> osX;
     vector<double> osY;
@@ -33,6 +35,12 @@ int main() {
             osY.push_back(randValue());
         }
     }
-    main_plot.plot_xy(osX,osY,"Test");
-    getchar();
+   // main_plot.plot_xy(osX,osY,"Test");
+   Perceptron perceptron(3);
+    bool a=0;
+    bool b=1;
+    int c=a-b;
+    cout<<c;
+    //cout<<perceptron.random();
+    //getchar();
 }

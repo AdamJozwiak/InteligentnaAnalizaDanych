@@ -41,19 +41,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Analiza
+CMAKE_SOURCE_DIR = D:\Studia\InteligentnaAnalizaDanych
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Analiza\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -61,7 +61,7 @@ CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Analiza\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -72,7 +72,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -83,7 +83,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -93,14 +93,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Analiza\cmake-build-debug\biblioteka\CMakeFiles\progress.marks
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles 0
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\biblioteka\CMakeFiles\progress.marks
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/clean
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/clean
 .PHONY : clean
 
 # The main clean target
@@ -110,22 +110,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/preinstall
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/preinstall
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 biblioteka/CMakeFiles/Biblioteka.dir/rule:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/CMakeFiles/Biblioteka.dir/rule
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 biblioteka/CMakeFiles/Biblioteka.dir/rule
 .PHONY : biblioteka/CMakeFiles/Biblioteka.dir/rule
 
 # Convenience name for target.
@@ -135,7 +135,7 @@ Biblioteka: biblioteka/CMakeFiles/Biblioteka.dir/rule
 
 # fast build rule for target.
 Biblioteka/fast:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/build
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/build
 .PHONY : Biblioteka/fast
 
 src/Punkt.obj: src/Punkt.cpp.obj
@@ -144,7 +144,7 @@ src/Punkt.obj: src/Punkt.cpp.obj
 
 # target to build an object file
 src/Punkt.cpp.obj:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.obj
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.obj
 .PHONY : src/Punkt.cpp.obj
 
 src/Punkt.i: src/Punkt.cpp.i
@@ -153,7 +153,7 @@ src/Punkt.i: src/Punkt.cpp.i
 
 # target to preprocess a source file
 src/Punkt.cpp.i:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.i
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.i
 .PHONY : src/Punkt.cpp.i
 
 src/Punkt.s: src/Punkt.cpp.s
@@ -162,7 +162,7 @@ src/Punkt.s: src/Punkt.cpp.s
 
 # target to generate assembly for a file
 src/Punkt.cpp.s:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.s
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.s
 .PHONY : src/Punkt.cpp.s
 
 # Help Target
@@ -189,6 +189,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Adam\Desktop\Analiza\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -34,9 +34,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -52,127 +49,54 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Analiza
+CMAKE_SOURCE_DIR = D:\Studia\InteligentnaAnalizaDanych
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Analiza\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug
 
 #=============================================================================
-# Directory level rules for directory biblioteka
-
-# Convenience name for "all" pass in the directory.
-biblioteka/all: biblioteka/CMakeFiles/Biblioteka.dir/all
-
-.PHONY : biblioteka/all
-
-# Convenience name for "clean" pass in the directory.
-biblioteka/clean: biblioteka/CMakeFiles/Biblioteka.dir/clean
-
-.PHONY : biblioteka/clean
-
-# Convenience name for "preinstall" pass in the directory.
-biblioteka/preinstall:
-
-.PHONY : biblioteka/preinstall
-
-#=============================================================================
-# Target rules for target biblioteka/CMakeFiles/Biblioteka.dir
+# Target rules for target CMakeFiles/InteligentnaAnalizaDanych.dir
 
 # All Build rule for target.
-biblioteka/CMakeFiles/Biblioteka.dir/all:
-	$(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/depend
-	$(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Biblioteka"
-.PHONY : biblioteka/CMakeFiles/Biblioteka.dir/all
+CMakeFiles/InteligentnaAnalizaDanych.dir/all:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/depend
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target InteligentnaAnalizaDanych"
+.PHONY : CMakeFiles/InteligentnaAnalizaDanych.dir/all
 
 # Include target in all.
-all: biblioteka/CMakeFiles/Biblioteka.dir/all
+all: CMakeFiles/InteligentnaAnalizaDanych.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-biblioteka/CMakeFiles/Biblioteka.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 biblioteka/CMakeFiles/Biblioteka.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles 0
-.PHONY : biblioteka/CMakeFiles/Biblioteka.dir/rule
+CMakeFiles/InteligentnaAnalizaDanych.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles 5
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/InteligentnaAnalizaDanych.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/InteligentnaAnalizaDanych.dir/rule
 
 # Convenience name for target.
-Biblioteka: biblioteka/CMakeFiles/Biblioteka.dir/rule
+InteligentnaAnalizaDanych: CMakeFiles/InteligentnaAnalizaDanych.dir/rule
 
-.PHONY : Biblioteka
-
-# clean rule for target.
-biblioteka/CMakeFiles/Biblioteka.dir/clean:
-	$(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/clean
-.PHONY : biblioteka/CMakeFiles/Biblioteka.dir/clean
+.PHONY : InteligentnaAnalizaDanych
 
 # clean rule for target.
-clean: biblioteka/CMakeFiles/Biblioteka.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory program
-
-# Convenience name for "all" pass in the directory.
-program/all: program/CMakeFiles/Program.dir/all
-
-.PHONY : program/all
-
-# Convenience name for "clean" pass in the directory.
-program/clean: program/CMakeFiles/Program.dir/clean
-
-.PHONY : program/clean
-
-# Convenience name for "preinstall" pass in the directory.
-program/preinstall:
-
-.PHONY : program/preinstall
-
-#=============================================================================
-# Target rules for target program/CMakeFiles/Program.dir
-
-# All Build rule for target.
-program/CMakeFiles/Program.dir/all: biblioteka/CMakeFiles/Biblioteka.dir/all
-	$(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/depend
-	$(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target Program"
-.PHONY : program/CMakeFiles/Program.dir/all
-
-# Include target in all.
-all: program/CMakeFiles/Program.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-program/CMakeFiles/Program.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles 4
-	$(MAKE) -f CMakeFiles\Makefile2 program/CMakeFiles/Program.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles 0
-.PHONY : program/CMakeFiles/Program.dir/rule
-
-# Convenience name for target.
-Program: program/CMakeFiles/Program.dir/rule
-
-.PHONY : Program
+CMakeFiles/InteligentnaAnalizaDanych.dir/clean:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/clean
+.PHONY : CMakeFiles/InteligentnaAnalizaDanych.dir/clean
 
 # clean rule for target.
-program/CMakeFiles/Program.dir/clean:
-	$(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/clean
-.PHONY : program/CMakeFiles/Program.dir/clean
-
-# clean rule for target.
-clean: program/CMakeFiles/Program.dir/clean
+clean: CMakeFiles/InteligentnaAnalizaDanych.dir/clean
 
 .PHONY : clean
 

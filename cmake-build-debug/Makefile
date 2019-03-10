@@ -23,9 +23,6 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
-# Produce verbose output by default.
-VERBOSE = 1
-
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -41,49 +38,27 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Analiza
+CMAKE_SOURCE_DIR = D:\Studia\InteligentnaAnalizaDanych
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Analiza\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\ctest.exe" --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -91,11 +66,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Analiza\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Studia\InteligentnaAnalizaDanych\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -124,30 +110,125 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Biblioteka
+# Target rules for targets named InteligentnaAnalizaDanych
 
 # Build rule for target.
-Biblioteka: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Biblioteka
-.PHONY : Biblioteka
+InteligentnaAnalizaDanych: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 InteligentnaAnalizaDanych
+.PHONY : InteligentnaAnalizaDanych
 
 # fast build rule for target.
-Biblioteka/fast:
-	$(MAKE) -f biblioteka\CMakeFiles\Biblioteka.dir\build.make biblioteka/CMakeFiles/Biblioteka.dir/build
-.PHONY : Biblioteka/fast
+InteligentnaAnalizaDanych/fast:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/build
+.PHONY : InteligentnaAnalizaDanych/fast
 
-#=============================================================================
-# Target rules for targets named Program
+program/include/Punkt.obj: program/include/Punkt.cpp.obj
 
-# Build rule for target.
-Program: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Program
-.PHONY : Program
+.PHONY : program/include/Punkt.obj
 
-# fast build rule for target.
-Program/fast:
-	$(MAKE) -f program\CMakeFiles\Program.dir\build.make program/CMakeFiles/Program.dir/build
-.PHONY : Program/fast
+# target to build an object file
+program/include/Punkt.cpp.obj:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.obj
+.PHONY : program/include/Punkt.cpp.obj
+
+program/include/Punkt.i: program/include/Punkt.cpp.i
+
+.PHONY : program/include/Punkt.i
+
+# target to preprocess a source file
+program/include/Punkt.cpp.i:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.i
+.PHONY : program/include/Punkt.cpp.i
+
+program/include/Punkt.s: program/include/Punkt.cpp.s
+
+.PHONY : program/include/Punkt.s
+
+# target to generate assembly for a file
+program/include/Punkt.cpp.s:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/include/Punkt.cpp.s
+.PHONY : program/include/Punkt.cpp.s
+
+program/src/Chodakowska.obj: program/src/Chodakowska.cpp.obj
+
+.PHONY : program/src/Chodakowska.obj
+
+# target to build an object file
+program/src/Chodakowska.cpp.obj:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj
+.PHONY : program/src/Chodakowska.cpp.obj
+
+program/src/Chodakowska.i: program/src/Chodakowska.cpp.i
+
+.PHONY : program/src/Chodakowska.i
+
+# target to preprocess a source file
+program/src/Chodakowska.cpp.i:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.i
+.PHONY : program/src/Chodakowska.cpp.i
+
+program/src/Chodakowska.s: program/src/Chodakowska.cpp.s
+
+.PHONY : program/src/Chodakowska.s
+
+# target to generate assembly for a file
+program/src/Chodakowska.cpp.s:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.s
+.PHONY : program/src/Chodakowska.cpp.s
+
+program/src/Perceptron.obj: program/src/Perceptron.cpp.obj
+
+.PHONY : program/src/Perceptron.obj
+
+# target to build an object file
+program/src/Perceptron.cpp.obj:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj
+.PHONY : program/src/Perceptron.cpp.obj
+
+program/src/Perceptron.i: program/src/Perceptron.cpp.i
+
+.PHONY : program/src/Perceptron.i
+
+# target to preprocess a source file
+program/src/Perceptron.cpp.i:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.i
+.PHONY : program/src/Perceptron.cpp.i
+
+program/src/Perceptron.s: program/src/Perceptron.cpp.s
+
+.PHONY : program/src/Perceptron.s
+
+# target to generate assembly for a file
+program/src/Perceptron.cpp.s:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.s
+.PHONY : program/src/Perceptron.cpp.s
+
+program/src/main.obj: program/src/main.cpp.obj
+
+.PHONY : program/src/main.obj
+
+# target to build an object file
+program/src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj
+.PHONY : program/src/main.cpp.obj
+
+program/src/main.i: program/src/main.cpp.i
+
+.PHONY : program/src/main.i
+
+# target to preprocess a source file
+program/src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.i
+.PHONY : program/src/main.cpp.i
+
+program/src/main.s: program/src/main.cpp.s
+
+.PHONY : program/src/main.s
+
+# target to generate assembly for a file
+program/src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\InteligentnaAnalizaDanych.dir\build.make CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.s
+.PHONY : program/src/main.cpp.s
 
 # Help Target
 help:
@@ -155,11 +236,21 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... test
+	@echo ... InteligentnaAnalizaDanych
 	@echo ... edit_cache
-	@echo ... Biblioteka
-	@echo ... Program
+	@echo ... rebuild_cache
+	@echo ... program/include/Punkt.obj
+	@echo ... program/include/Punkt.i
+	@echo ... program/include/Punkt.s
+	@echo ... program/src/Chodakowska.obj
+	@echo ... program/src/Chodakowska.i
+	@echo ... program/src/Chodakowska.s
+	@echo ... program/src/Perceptron.obj
+	@echo ... program/src/Perceptron.i
+	@echo ... program/src/Perceptron.s
+	@echo ... program/src/main.obj
+	@echo ... program/src/main.i
+	@echo ... program/src/main.s
 .PHONY : help
 
 

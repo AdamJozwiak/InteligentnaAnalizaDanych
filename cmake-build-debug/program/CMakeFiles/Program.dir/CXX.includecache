@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
 iostream
 -
 string
@@ -30,11 +30,11 @@ io.h
 unistd.h
 -
 
-C:/Users/Adam/Desktop/Analiza/program/src/main.cpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/main.cpp
 iostream
 -
 gnuplot_i.hpp
-C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
 iostream
 -
 cstdlib
