@@ -10,6 +10,7 @@ using namespace std;
 
 class Rysowanie {
 private:
+    Chodakowska *trener;
     float x;
     float y;
 public:

@@ -24,7 +24,13 @@ cstdlib
 Perceptron.h
 ../program/include/Perceptron.h
 
-C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/Rysowanie.cpp
+Rysowanie.h
+D:/Studia/InteligentnaAnalizaDanych/program/src/Rysowanie.h
+gnuplot_i.hpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
+
+D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
 iostream
 -
 string
@@ -48,11 +54,11 @@ io.h
 unistd.h
 -
 
-C:/Users/Adam/Desktop/Analiza/program/src/main.cpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/main.cpp
 iostream
 -
 gnuplot_i.hpp
-C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
+D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
 iostream
 -
 cstdlib
@@ -62,7 +68,7 @@ ctime
 random
 -
 Perceptron.h
-C:/Users/Adam/Desktop/Analiza/program/src/Perceptron.h
+D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.h
 Rysowanie.h
-C:/Users/Adam/Desktop/Analiza/program/src/Rysowanie.h
+D:/Studia/InteligentnaAnalizaDanych/program/src/Rysowanie.h
 

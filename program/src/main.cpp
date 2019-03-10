@@ -6,7 +6,7 @@
 #include <random>
 #include "Perceptron.h"
 #include "Rysowanie.h"
-#define GNUPLOT_PATH "C:\\gnuplot\\bin"
+//#define GNUPLOT_PATH "C:\\gnuplot\\bin"
 //#define GNUPLOT_PATH "D:\\gnuplocik\\gnuplot\\bin"
 using namespace std;
 
