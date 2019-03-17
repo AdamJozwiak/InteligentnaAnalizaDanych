@@ -39,3 +39,7 @@ void Perceptron::trenuj(float *wej, bool odp) {
 float* Perceptron::getWaga() {
     return wagi;
 }
+
+float Perceptron::f(float x) {
+    return -wagi[0]/wagi[1] * x - wagi[2]/wagi[0];
+}

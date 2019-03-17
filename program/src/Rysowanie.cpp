@@ -37,16 +37,15 @@ void Rysowanie::rysowanie(int n) {
     main_plot.set_ylabel( "Os Y" );
     main_plot.set_grid();
     main_plot.set_style( "points" );
-    main_plot.set_xrange(0, 100);
-    main_plot.set_yrange(0, 100);
+    main_plot.set_xrange(0, 1);
+    main_plot.set_yrange(0, 1);
     main_plot.set_pointsize(1.0);
     losowaniePunktow(n);
 
     Perceptron p(3);
-    int licznik = 0;
 
-    vector<double> osX;
-    vector<double> osY;
+    vector<float> osX;
+    vector<float> osY;
 
     for(int i = 0; i<n; i++)
     {
@@ -54,10 +53,7 @@ void Rysowanie::rysowanie(int n) {
         osY.push_back(trener[i].getWej()[1]);
     }
 
-    main_plot.plot_xy(osX, osY, "Tyts");
-
-    //p.trenuj(trener[licznik].getWej(), trener[licznik].getOdp());
-    //licznik = (licznik +1) % sizeof(trener);
+    //main_plot.plot_xy(osX, osY, "Tyts");
 
     /*for(int i = 0; i < licznik; i++)
     {
@@ -68,26 +64,25 @@ void Rysowanie::rysowanie(int n) {
         }
     }*/
 
-
-    /*for(int i = 0; i < 20; i++)
-    //{
-
-
-    //}*/
-
-    vector<double> osX1;
-    vector<double> osY1;
+    vector<float> osX1;
+    vector<float> osY1;
 
     osX1.push_back(0.0);
-    osY1.push_back(0.0);
-    osX1.push_back(10.0);
-    osY1.push_back(10.0);
-
-
+    osY1.push_back(p.f(0.0));
+    osX1.push_back(1.0);
+    osY1.push_back(p.f(1.0));
 
     main_plot.set_style("lines");
-    main_plot.plot_xy(osX1,osY1, "Linia");
 
+    for(int i = 0; i < n; i++)
+    {
+        //main_plot.plot_xy(osX1,osY1, "Linia");
+        //cout<<"Wartosc X1: " << osX1[0] << " i Y1: " << osY1[0] << " ----------> Wartosc X2: " << osX1[1] << " i Y2: " << osY1[1] << endl;
+        p.trenuj(trener[i].getWej(), trener[i].getOdp());
+        //osY1.clear();
+        osY1[0] = p.f(osX1[0]);
+        osY1[1] = p.f(osX1[1]);
+    }
 
     cin.get();
 }
