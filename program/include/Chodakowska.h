@@ -1,6 +1,5 @@
-
-#ifndef INTELIGENTNAANALIZADANYCH_CHODAKOWSKA_H
-#define INTELIGENTNAANALIZADANYCH_CHODAKOWSKA_H
+#ifndef ANALIZA_CHODAKOWSKA_H
+#define ANALIZA_CHODAKOWSKA_H
 class Chodakowska{
 private:
     float* wej;
@@ -14,4 +13,4 @@ public:
     bool getOdp();
 };
 
-#endif //INTELIGENTNAANALIZADANYCH_CHODAKOWSKA_H
+#endif

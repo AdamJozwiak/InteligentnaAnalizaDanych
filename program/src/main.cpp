@@ -1,5 +1,5 @@
 #include <iostream>
-#include "gnuplot_i.hpp"
+//#include "gnuplot_i.hpp"
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -45,6 +45,6 @@ int main() {
     //cout<<perceptron.random();
     //getchar();*/
 
-    Rysowanie rysunek;
+    Rysowanie rysunek{};
     rysunek.rysowanie(100);
 }

@@ -1,10 +1,10 @@
-#ifndef INTELIGENTNAANALIZADANYCH_RYSOWANIE_H
-#define INTELIGENTNAANALIZADANYCH_RYSOWANIE_H
+#ifndef ANALIZA_RYSOWANIE_H
+#define ANALIZA_RYSOWANIE_H
 
+#include "Perceptron.h"
 #include "Chodakowska.h"
 #include <ctime>
 #include <cstdlib>
-#include "Perceptron.h"
 
 using namespace std;
 
@@ -19,4 +19,4 @@ public:
     float random();
     void rysowanie(int n);
 };
-#endif //INTELIGENTNAANALIZADANYCH_RYSOWANIE_H
+#endif

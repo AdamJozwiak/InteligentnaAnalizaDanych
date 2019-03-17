@@ -7,9 +7,6 @@ CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj: ../pro
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj: ../program/include/Perceptron.h
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj: ../program/src/Perceptron.cpp
 
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj: ../program/include/Punkt.h
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Punkt.cpp.obj: ../program/src/Punkt.cpp
-
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: ../program/include/Chodakowska.h
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: ../program/include/Perceptron.h
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: ../program/include/Rysowanie.h
@@ -19,6 +16,5 @@ CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj: ../progr
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: ../program/include/Chodakowska.h
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: ../program/include/Perceptron.h
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: ../program/include/Rysowanie.h
-CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: ../program/src/gnuplot_i.hpp
 CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj: ../program/src/main.cpp
 

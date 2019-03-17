@@ -35,3 +35,7 @@ void Perceptron::trenuj(float *wej, bool odp) {
         wagi[i]+=blad*wej[i]*c;
     }
 }
+
+float* Perceptron::getWaga() {
+    return wagi;
+}

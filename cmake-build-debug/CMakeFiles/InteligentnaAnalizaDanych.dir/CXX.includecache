@@ -15,22 +15,22 @@ ctime
 -
 
 ../program/include/Rysowanie.h
+Perceptron.h
+../program/include/Perceptron.h
 Chodakowska.h
 ../program/include/Chodakowska.h
 ctime
 -
 cstdlib
 -
-Perceptron.h
-../program/include/Perceptron.h
 
-D:/Studia/InteligentnaAnalizaDanych/program/src/Rysowanie.cpp
+C:/Users/Adam/Desktop/Analiza/program/src/Rysowanie.cpp
 Rysowanie.h
-D:/Studia/InteligentnaAnalizaDanych/program/src/Rysowanie.h
+C:/Users/Adam/Desktop/Analiza/program/src/Rysowanie.h
 gnuplot_i.hpp
-D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
+C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
 
-D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
+C:/Users/Adam/Desktop/Analiza/program/src/gnuplot_i.hpp
 iostream
 -
 string
@@ -53,22 +53,4 @@ io.h
 -
 unistd.h
 -
-
-D:/Studia/InteligentnaAnalizaDanych/program/src/main.cpp
-iostream
--
-gnuplot_i.hpp
-D:/Studia/InteligentnaAnalizaDanych/program/src/gnuplot_i.hpp
-iostream
--
-cstdlib
--
-ctime
--
-random
--
-Perceptron.h
-D:/Studia/InteligentnaAnalizaDanych/program/src/Perceptron.h
-Rysowanie.h
-D:/Studia/InteligentnaAnalizaDanych/program/src/Rysowanie.h
 
