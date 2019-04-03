@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Zad1" targetName="Zad1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb58bed2-fdad-498b-91de-6faa44c933f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Analiza.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Analiza.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.12.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Chodakowska.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Perceptron.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/Rysowanie.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/program/src/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/InteligentnaAnalizaDanych.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CTestTestfile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/InteligentnaAnalizaDanych.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/InteligentnaAnalizaDanych.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/Biblioteka.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/cmake_clean_target.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/Biblioteka.dir/src/Punkt.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/biblioteka/libBiblioteka.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/compile_commands.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia00252" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia01320" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia01524" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia01716" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia02512" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia02752" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia03224" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia03372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia03564" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia03944" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia04148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia04224" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia04732" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia04832" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia04836" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia06484" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia06788" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia06828" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia07440" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia08120" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia08592" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia08928" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09300" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09344" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09348" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09360" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09412" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia09872" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia10312" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia10360" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia10376" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia10648" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia11444" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotia11844" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib01524" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib03372" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib03944" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib06828" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib09344" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib09412" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib10648" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotib11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotic00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotic01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotic07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotic08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotic09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotic11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotid00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotid01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotid07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotid08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotid09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotid11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotie00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotie01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotie07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotie08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotie09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotie11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotif00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotif01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotif07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotif08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotif09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotif11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotig00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotig01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotig07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotig08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotig09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotig11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotih00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotih01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotih07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotih08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotih09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotih11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotii00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotii01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotii07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotii08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotii09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotii11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotij00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotij01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotij07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotij08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotij09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotij11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotik00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotik01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotik07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotik08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotik09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotik11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotil00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotil01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotil07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotil08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotil09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotil11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotim00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotim01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotim07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotim08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotim09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotim11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotin00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotin01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotin07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotin08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotin09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotin11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotio00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotio01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotio07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotio08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotio09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotio11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotip00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotip01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotip07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotip08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotip09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotip11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiq00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiq01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiq07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiq08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiq09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiq11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotir00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotir01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotir07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotir08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotir09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotir11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotis00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotis01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotis07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotis08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotis09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotis11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotit00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotit01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotit07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotit08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotit09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotit11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiu00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiu01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiu07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiu08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiu09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiu11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiv00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiv01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiv07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiv08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiv09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiv11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiw00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiw01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiw07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiw08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiw09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiw11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotix00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotix01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotix07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotix08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotix09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotix11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiy00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiy01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiy07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiy08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiy09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiy11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiz00588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiz01192" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiz07148" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiz08248" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiz09812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/gnuplotiz11152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/includes_CXX.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/linklibs.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/objects1.rsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/Program.dir/src/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/Program.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/Program.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia02812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia03700" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia04676" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia05828" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia08020" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia09492" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia09696" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cmake-build-debug/program/gnuplotia11476" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/CMakeLists2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/include/Chodakowska.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/include/Perceptron.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/include/Rysowanie.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/src/Chodakowska.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/src/Perceptron.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/src/Rysowanie.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/src/gnuplot_i.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../program/src/main.cpp" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="596215455">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1097822495">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="1" />
+          <entry key="h" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="1" />
+          <entry key="ObjectiveC" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="354" />
+          <entry key="h" value="326" />
+          <entry key="txt" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="26" />
+          <entry key="ObjectiveC" value="680" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/program/include/Neuron.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#45#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/program/include/Neuron.h" />
+        <option value="$PROJECT_DIR$/program/src/Neuron.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zad1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zad1" type="462c0819:PsiDirectoryNode" />
+              <item name="program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Zad1">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zad1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Zad1" TARGET_NAME="Zad1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Zad1" RUN_TARGET_NAME="Zad1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.Zad1" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb58bed2-fdad-498b-91de-6faa44c933f0" name="Default Changelist" comment="" />
+      <created>1554064760393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554064760393</updated>
+      <workItem from="1554064763167" duration="18000" />
+      <workItem from="1554065015023" duration="3023000" />
+      <workItem from="1554296620818" duration="4736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7777000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17724289" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/include/Neuron.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#45#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
