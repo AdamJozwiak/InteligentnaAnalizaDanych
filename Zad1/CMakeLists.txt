@@ -7,4 +7,4 @@ include_directories(program/include)
 include_directories(program/src)
 
 add_executable(Zad1
-        program/src/main.cpp program/include/Neuron.h program/src/Neuron.cpp)
+        program/src/main.cpp program/include/Neuron.h program/src/Neuron.cpp program/include/SiecNeuronowa.h program/src/SiecNeuronowa.cpp)

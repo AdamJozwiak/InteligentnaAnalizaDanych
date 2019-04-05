@@ -19,6 +19,7 @@ public:
     double sumowanie(double* wagi);
     double aktywacja(double suma);
     void trenowanie(double *wej, bool odp);
+
 };
 
 #endif

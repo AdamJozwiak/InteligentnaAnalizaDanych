@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Adam/Desktop/Analiza/Zad1/program/src/Neuron.cpp" "C:/Users/Adam/Desktop/Analiza/Zad1/cmake-build-debug/CMakeFiles/Zad1.dir/program/src/Neuron.cpp.obj"
+  "C:/Users/Adam/Desktop/Analiza/Zad1/program/src/SiecNeuronowa.cpp" "C:/Users/Adam/Desktop/Analiza/Zad1/cmake-build-debug/CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.obj"
   "C:/Users/Adam/Desktop/Analiza/Zad1/program/src/main.cpp" "C:/Users/Adam/Desktop/Analiza/Zad1/cmake-build-debug/CMakeFiles/Zad1.dir/program/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
