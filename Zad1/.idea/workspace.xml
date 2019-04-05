@@ -24,6 +24,8 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Zad1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Zad1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/program/include/Neuron.h" beforeDir="false" afterPath="$PROJECT_DIR$/program/include/Neuron.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/include/SiecNeuronowa.h" beforeDir="false" afterPath="$PROJECT_DIR$/program/include/SiecNeuronowa.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program/src/SiecNeuronowa.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/program/src/SiecNeuronowa.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,12 +48,13 @@
     <session id="1097822495">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -64,7 +67,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="4" />
+          <entry key="ObjectiveC" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -77,56 +80,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="26" />
-          <entry key="ObjectiveC" value="1151" />
+          <entry key="ObjectiveC" value="1303" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/include/Neuron.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#45#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/include/SiecNeuronowa.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-              <folding>
-                <element signature="e#59#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/program/src/SiecNeuronowa.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -137,6 +97,8 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/program/src/Neuron.cpp" />
         <option value="$PROJECT_DIR$/program/include/Neuron.h" />
+        <option value="$PROJECT_DIR$/program/include/Warstwa.h" />
+        <option value="$PROJECT_DIR$/program/src/Warstwa.cpp" />
         <option value="$PROJECT_DIR$/program/include/SiecNeuronowa.h" />
         <option value="$PROJECT_DIR$/program/src/SiecNeuronowa.cpp" />
       </list>
@@ -148,8 +110,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -241,17 +203,17 @@
       <workItem from="1554296620818" duration="4736000" />
       <workItem from="1554478940481" duration="624000" />
       <workItem from="1554479844908" duration="2994000" />
+      <workItem from="1554506875624" duration="577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11395000" />
+    <option name="totallyTimeSpent" value="11972000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08955224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22210066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,35 +251,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/program/include/Neuron.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#45#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/include/Warstwa.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program/src/Warstwa.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/program/include/SiecNeuronowa.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#59#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/src/SiecNeuronowa.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>

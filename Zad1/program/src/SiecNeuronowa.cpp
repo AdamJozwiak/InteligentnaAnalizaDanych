@@ -1,16 +1,16 @@
 #include "SiecNeuronowa.h"
 
-void SiecNeuronowa::dodajNeuron(Neuron* neuron) {
-    neurony.push_back(neuron);
+void SiecNeuronowa::dodajWarstwe(Warstwa* warstwa) {
+    warstwy.push_back(warstwa);
 }
 
-void SiecNeuronowa::usunNeuron(Neuron* neuron) {
-    vector<Neuron*>::iterator it;
-    for(it = neurony.begin(); it != neurony.end(); it++)
+void SiecNeuronowa::usunWarstwe(Warstwa* warstwa) {
+    vector<Warstwa*>::iterator it;
+    for(it = warstwy.begin(); it != warstwy.end(); it++)
     {
-        if(*it == neuron)
+        if(*it == warstwa)
         {
-            it = neurony.erase(it);
+            it = warstwy.erase(it);
             break;
         }
     }

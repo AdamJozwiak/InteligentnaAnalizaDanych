@@ -176,6 +176,33 @@ program/src/SiecNeuronowa.cpp.s:
 	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.s
 .PHONY : program/src/SiecNeuronowa.cpp.s
 
+program/src/Warstwa.obj: program/src/Warstwa.cpp.obj
+
+.PHONY : program/src/Warstwa.obj
+
+# target to build an object file
+program/src/Warstwa.cpp.obj:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.obj
+.PHONY : program/src/Warstwa.cpp.obj
+
+program/src/Warstwa.i: program/src/Warstwa.cpp.i
+
+.PHONY : program/src/Warstwa.i
+
+# target to preprocess a source file
+program/src/Warstwa.cpp.i:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.i
+.PHONY : program/src/Warstwa.cpp.i
+
+program/src/Warstwa.s: program/src/Warstwa.cpp.s
+
+.PHONY : program/src/Warstwa.s
+
+# target to generate assembly for a file
+program/src/Warstwa.cpp.s:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.s
+.PHONY : program/src/Warstwa.cpp.s
+
 program/src/main.obj: program/src/main.cpp.obj
 
 .PHONY : program/src/main.obj
@@ -218,6 +245,9 @@ help:
 	@echo ... program/src/SiecNeuronowa.obj
 	@echo ... program/src/SiecNeuronowa.i
 	@echo ... program/src/SiecNeuronowa.s
+	@echo ... program/src/Warstwa.obj
+	@echo ... program/src/Warstwa.i
+	@echo ... program/src/Warstwa.s
 	@echo ... program/src/main.obj
 	@echo ... program/src/main.i
 	@echo ... program/src/main.s

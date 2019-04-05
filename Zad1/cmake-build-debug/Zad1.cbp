@@ -90,10 +90,16 @@
 		<Unit filename="C:/Users/Adam/Desktop/Analiza/Zad1/program/include/SiecNeuronowa.h">
 			<Option target="Zad1"/>
 		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Analiza/Zad1/program/include/Warstwa.h">
+			<Option target="Zad1"/>
+		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Analiza/Zad1/program/src/Neuron.cpp">
 			<Option target="Zad1"/>
 		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Analiza/Zad1/program/src/SiecNeuronowa.cpp">
+			<Option target="Zad1"/>
+		</Unit>
+		<Unit filename="C:/Users/Adam/Desktop/Analiza/Zad1/program/src/Warstwa.cpp">
 			<Option target="Zad1"/>
 		</Unit>
 		<Unit filename="C:/Users/Adam/Desktop/Analiza/Zad1/program/src/main.cpp">
