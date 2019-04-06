@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Zad1.dir/program/src/Neuron.cpp.obj"
   "CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.obj"
   "CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.obj"
+  "CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj"
   "Zad1.pdb"
   "Zad1.exe"
   "Zad1.exe.manifest"

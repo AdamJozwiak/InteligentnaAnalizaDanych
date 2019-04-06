@@ -9,5 +9,6 @@ private:
 public:
     void dodajNeuron(Neuron*);
     void usunNeuron(Neuron*);
+    vector<Neuron*> getNeurony();
 };
 #endif

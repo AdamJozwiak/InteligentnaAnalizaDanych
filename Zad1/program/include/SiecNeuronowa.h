@@ -11,6 +11,7 @@ private:
 public:
     void dodajWarstwe(Warstwa*);
     void usunWarstwe(Warstwa*);
+    vector<Warstwa*> getWarstwy();
 };
 
 #endif

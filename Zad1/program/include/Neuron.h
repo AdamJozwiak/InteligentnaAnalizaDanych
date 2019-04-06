@@ -5,21 +5,34 @@
 #include <ctime>
 #include <cmath>
 #include <vector>
+#include "Trener.h"
 
 using namespace std;
 
-class Neuron{
+class Neuron {
 private:
     int lb_wag;
     double stala;
-    double* wagi;
+    double *wagi;
     int beta = 1;
+    Trener trener;
+
 public:
     Neuron(int lb_wag);
+
     double random();
-    double sumowanie(double* wagi);
+
+    double propagacja(double *wagi);
+
+    double wstecznaPropagacja();
+
     double aktywacja(double suma);
+
+    double pochodnaAktywacji();
+
     void trenowanie(double *wej, bool odp);
+
+    double blad();
 
 };
 

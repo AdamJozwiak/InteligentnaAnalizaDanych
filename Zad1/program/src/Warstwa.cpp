@@ -15,3 +15,7 @@ void Warstwa::usunNeuron(Neuron* neuron) {
         }
     }
 }
+
+vector<Neuron*> Warstwa::getNeurony() {
+    return neurony;
+}

@@ -15,3 +15,7 @@ void SiecNeuronowa::usunWarstwe(Warstwa* warstwa) {
         }
     }
 }
+
+vector<Warstwa*> SiecNeuronowa::getWarstwy() {
+    return warstwy;
+}
