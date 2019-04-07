@@ -31,6 +31,23 @@ int main() {
     fin.close();
     vector<Warstwa> dzialaj=siecNeuronowa.getWarstwy();
     //dzialaj[0].obliczY(zestaw[0]);
-    siecNeuronowa.uczSiec(zestaw,zestaw, 4);
+
+    for(int i=0; i<10000; i++) {
+       cout<< siecNeuronowa.getWarstwy()[2].getNeurony()[1].getWagi()[0]<<endl;
+        siecNeuronowa.uczSiec(zestaw, zestaw, 4);
+        //cout<<siecNeuronowa.E<<endl;
+    }
+
+    /*for (int i = 0; i < 4; i++) {
+
+
+        double *lament = siecNeuronowa.getY(zestaw[i]);
+        for (int k = 0; k < 4; k++) {
+            cout << lament[k] << " ";
+
+        }
+        cout<<endl;
+    }*/
+
     return 0;
 }

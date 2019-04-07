@@ -6,6 +6,7 @@
 #include <cmath>
 #include <vector>
 #include "Trener.h"
+#include <iostream>
 
 using namespace std;
 
@@ -14,14 +15,17 @@ private:
     int lb_wag;
     double alfa;
     double *wagi;
-    double *deltaW;
-    int beta;
-    double b;
-    double* pochodna;
+
+    double beta;
+
+
 
     //Trener trener;
 
 public:
+    double *deltaW;
+    double b;
+    double* pochodna;
     Neuron(int lb_wag);
 
     double random();

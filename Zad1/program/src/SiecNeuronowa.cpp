@@ -32,9 +32,9 @@ void SiecNeuronowa::liczB(int nrWar)
     for(int i=0; i<warstwy[nrWar].getNeurony().size(); i++)
     {
         double b=0;
-        for(int j=0; j<next.getNeurony().size(); i++)
+        for(int j=0; j<next.getNeurony().size(); j++)
         {
-            b+=next.getNeurony()[j].getB()*next.getNeurony()[j].getWagi()[i];
+            b+=next.getNeurony()[j].getB()*next.getNeurony()[j].getWagi()[i+1];
         }
         b=b*warstwy[nrWar].getNeurony()[i].pochodnaAktywacji(warstwy[nrWar].getWejscia());
         warstwy[nrWar].getNeurony()[i].setB(b);
@@ -43,20 +43,38 @@ void SiecNeuronowa::liczB(int nrWar)
 }
 
 void SiecNeuronowa::firstB(double *odp) {
-    Warstwa last=warstwy.back();
+    //Warstwa warstwy.back()=warstwy.back();
     double wynik;
-    for (int i=0; i< last.getNeurony().size(); i++)
+    for (int i=0; i< warstwy.back().getNeurony().size(); i++)
     {
-        wynik=(last.getY()[i]-odp[i])*last.getNeurony()[i].pochodnaAktywacji(last.getWejscia()); //(y-odp) * f'(suma)
-        last.getNeurony()[i].setB(wynik); //zapisujemy ta wartosc dla kazdego neurony z warstwy wyjsciowej w danym wzorcu
+        wynik=(warstwy.back().getY()[i]-odp[i])*warstwy.back().getNeurony()[i].pochodnaAktywacji(warstwy.back().getWejscia()); //(y-odp) * f'(suma)
+        warstwy.back().getNeurony()[i].setB(wynik); //zapisujemy ta wartosc dla kazdego neurony z warstwy wyjsciowej w danym wzorcu
     }
 
+}
+
+double* SiecNeuronowa::getY(double *wejscia) {
+    warstwy[0].obliczY(wejscia);
+    for (int i = 1; i <warstwy.size() ; i++) {
+        warstwy[i].obliczY(warstwy[i-1].getY());
+    }
+    return warstwy.back().getY();
 }
 
 
 void SiecNeuronowa::uczSiec(double** zestaw, double** odp, int N) {
 
-    double blad=0;
+    for (int i = 0; i < warstwy.size(); i++) {
+
+        for (int j = 0; j < warstwy[i].getNeurony().size(); j++) {
+            //warstwy[i].getNeurony()[j].dzielPoch(N);
+           // warstwy[i].getNeurony()[j].zmienWagi();
+            warstwy[i].getNeurony()[j].zerPoch();
+
+        }
+    }
+
+    E=0;
     for (int i = 0; i < N; i++)
     {
         ////propagacja
@@ -70,13 +88,13 @@ void SiecNeuronowa::uczSiec(double** zestaw, double** odp, int N) {
        //wsteczna propagacja
 
        firstB(odp[i]);
-        for(int j=warstwy.size()-2; j>=0; j++)
+        for(int j=warstwy.size()-2; j>=0; j--)
         {
             liczB(j);
 
         }
 
-        for (int j = warstwy.size()-1; j>=0; j++)
+        for (int j = warstwy.size()-1; j>=0; j--)
         {
 
             for(int k=0; k<warstwy[j].getNeurony().size(); k++)
@@ -85,16 +103,23 @@ void SiecNeuronowa::uczSiec(double** zestaw, double** odp, int N) {
             }
 
         }
+        for (int j = 0; j < warstwy.back().getNeurony().size(); j++) {
+            E=E+pow((warstwy.back().getY()[j]-odp[i][j]),2);
+        }
     }
 
-    /*for (int i = 0; i < warstwy.size(); i++) {
+    E/=2*N*4;
+
+    for (int i = 0; i < warstwy.size(); i++) {
 
         for (int j = 0; j < warstwy[i].getNeurony().size(); j++) {
             warstwy[i].getNeurony()[j].dzielPoch(N);
-
+            warstwy[i].getNeurony()[j].zmienWagi();
+            //warstwy[i].getNeurony()[j].zerPoch();
 
         }
-    }*/
+    }
+
 
     /*warstwy[0].obliczY(zestaw[i]);
     for (int j = 0; j < warstwy.size(); j++) {

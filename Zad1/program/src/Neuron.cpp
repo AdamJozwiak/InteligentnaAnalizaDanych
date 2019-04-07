@@ -4,7 +4,7 @@ Neuron::Neuron(int lb) {
     this->lb_wag=lb+1;
     wagi = new double[lb_wag];
     deltaW=new double[lb_wag];
-    alfa = 0.1;
+    alfa = 10;
     beta = 0.4;
     pochodna=new double[lb_wag];
     for (int i = 0; i < lb_wag; i++) {
@@ -16,7 +16,7 @@ Neuron::Neuron(int lb) {
 
 double Neuron::random() {
     srand(time(NULL));
-    return (double) (-100 + rand() % 200) / 100;
+    return (double) (-100 + rand() % 100) / 100;
 }
 
 double Neuron::aktywacja(double suma) {
@@ -66,6 +66,8 @@ void Neuron::sumPoch(double *wejscia) {
         pochodna[i]+=b*wejscia[i-1];
     }
     pochodna[0]+=b; //bias
+    //cout<<pochodna[1]<<endl;
+    //cout<<b<<endl;
 
 }
 
@@ -73,12 +75,14 @@ void Neuron::dzielPoch(int N) {
     for (int i = 0; i <lb_wag ; ++i) {
         pochodna[i]/=N;
     }
+
 }
 
 void Neuron::zmienWagi() {
-    for (int i = 0; i <lb_wag ; ++i) {
+    for (int i = 0; i <lb_wag ; i++) {
         deltaW[i]= -alfa*pochodna[i] + beta*deltaW[i];
         wagi[i]+=deltaW[i];
     }
+   // cout<<wagi[1]<<endl;
 }
 

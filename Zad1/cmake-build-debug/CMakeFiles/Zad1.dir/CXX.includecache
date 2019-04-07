@@ -17,6 +17,8 @@ vector
 -
 Trener.h
 ../program/include/Trener.h
+iostream
+-
 
 ../program/include/SiecNeuronowa.h
 Warstwa.h
@@ -31,4 +33,18 @@ Neuron.h
 D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.cpp
 SiecNeuronowa.h
 D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.h
+
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Warstwa.cpp
+Warstwa.h
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Warstwa.h
+Neuron.h
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Neuron.h
+
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/main.cpp
+iostream
+-
+SiecNeuronowa.h
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.h
+fstream
+-
 
