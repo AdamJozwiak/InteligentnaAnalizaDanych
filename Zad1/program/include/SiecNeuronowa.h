@@ -7,11 +7,18 @@ using namespace std;
 
 class SiecNeuronowa {
 private:
-    vector<Warstwa*> warstwy;
+    vector<Warstwa> warstwy;
+
 public:
-    void dodajWarstwe(Warstwa*);
-    void usunWarstwe(Warstwa*);
-    vector<Warstwa*> getWarstwy();
+    //SiecNeuronowa();
+    void dodajWarstwe(int, int);
+    void usunWarstwe(Warstwa);
+    vector<Warstwa>& getWarstwy();
+    void uczSiec(double** zestaw, double** odp, int n);
+    double* oblicz(double *wejscia);
+    double E(double* y, double* odp);
+    void liczB(int);
+    void firstB(double *odp);
 };
 
 #endif

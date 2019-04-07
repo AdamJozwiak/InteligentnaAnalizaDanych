@@ -2,13 +2,9 @@
 
 Trener::Trener(double* input, int lb_wejsc, int* odpowiedz) {
     wejscie=new double[lb_wejsc];
-    for(int i = 0; i <= lb_wejsc; i++)
+    wejscie[0]=1;
+    for(int i = 1; i <= lb_wejsc; i++)
     {
-        if(i == lb_wejsc)
-        {
-            wejscie[i] = 1;                 //Bias
-            break;
-        }
         wejscie[i] = input[i];              //Dalem input, bo bylo wejscia i mozna bylo dostac pierdolca
     }
 

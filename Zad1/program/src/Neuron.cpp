@@ -1,10 +1,16 @@
 #include "Neuron.h"
 
-Neuron::Neuron(int lb_wag) {
+Neuron::Neuron(int lb) {
+    this->lb_wag=lb+1;
     wagi = new double[lb_wag];
-    stala = 0.1;
+    deltaW=new double[lb_wag];
+    alfa = 0.1;
+    beta = 0.4;
+    pochodna=new double[lb_wag];
     for (int i = 0; i < lb_wag; i++) {
         wagi[i] = random();
+        pochodna[i]=0;
+        deltaW[i]=0;
     }
 }
 
@@ -14,24 +20,65 @@ double Neuron::random() {
 }
 
 double Neuron::aktywacja(double suma) {
-    return 1.0 / (1.0 + exp(-1.0 * beta * suma));
+    return 1.0 / (1.0 + exp(-suma));
 }
 
-double Neuron::pochodnaAktywacji() {
-    return beta * propagacja(trener.getWejscie()) * (1 - propagacja(trener.getWejscie()));
+double Neuron::pochodnaAktywacji(double *wejscia) {
+    return aktywacja(suma(wejscia)) * (1 - aktywacja(suma(wejscia)));
 }
 
-double Neuron::propagacja(double *wejscie) {
+double Neuron::suma(double *wejscia) {
     double suma = 0;
-    for (int i = 0; i < lb_wag; i++) {
-        suma += wejscie[i] * wagi[i];
+    for (int i = 1; i < lb_wag; i++) {
+        suma += wejscia[i-1] * wagi[i];
     }
-    return aktywacja(suma);
+    suma+=wagi[0];  //bias
+    return suma;
 }
 
-double Neuron::wstecznaPropagacja() {
-    double suma = 0;
+double Neuron::propagacja(double *wejscia) {
+
+    return aktywacja(suma(wejscia));
 }
 
-double Neuron::blad() {
+
+void Neuron::setB(double b) {
+    this->b=b;
 }
+
+double Neuron::getB() {
+    return b;
+}
+
+double* Neuron::getWagi() {
+    return wagi;
+}
+
+void Neuron::zerPoch() {
+    for (int i = 0; i < lb_wag; i++) {
+        pochodna[i]=0;
+
+    }
+}
+
+void Neuron::sumPoch(double *wejscia) {
+    for (int i = 1; i < lb_wag; i++) {
+        pochodna[i]+=b*wejscia[i-1];
+    }
+    pochodna[0]+=b; //bias
+
+}
+
+void Neuron::dzielPoch(int N) {
+    for (int i = 0; i <lb_wag ; ++i) {
+        pochodna[i]/=N;
+    }
+}
+
+void Neuron::zmienWagi() {
+    for (int i = 0; i <lb_wag ; ++i) {
+        deltaW[i]= -alfa*pochodna[i] + beta*deltaW[i];
+        wagi[i]+=deltaW[i];
+    }
+}
+

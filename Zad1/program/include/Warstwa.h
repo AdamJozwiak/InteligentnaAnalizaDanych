@@ -5,10 +5,20 @@
 
 class Warstwa {
 private:
-    vector<Neuron*> neurony;
+    vector<Neuron> neurony;
+    double* wejscia;
+    double* y;
+    int lb_wejsc;
 public:
-    void dodajNeuron(Neuron*);
-    void usunNeuron(Neuron*);
-    vector<Neuron*> getNeurony();
+    Warstwa(int lb_neur, int lb_wejsc);
+    void dodajNeuron(Neuron);
+    void usunNeuron(Neuron);
+    vector<Neuron>& getNeurony();
+    void obliczY(double* wejscia);
+    double* getY();
+    double lbNeur();
+    double* getWejscia();
+
+
 };
 #endif

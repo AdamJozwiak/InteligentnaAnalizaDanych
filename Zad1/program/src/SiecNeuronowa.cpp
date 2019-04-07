@@ -1,10 +1,11 @@
 #include "SiecNeuronowa.h"
 
-void SiecNeuronowa::dodajWarstwe(Warstwa* warstwa) {
+void SiecNeuronowa::dodajWarstwe(int lb_neur, int lb_wejsc) {
+    Warstwa warstwa(lb_neur,lb_wejsc);
     warstwy.push_back(warstwa);
 }
 
-void SiecNeuronowa::usunWarstwe(Warstwa* warstwa) {
+/*void SiecNeuronowa::usunWarstwe(Warstwa warstwa) {
     vector<Warstwa*>::iterator it;
     for(it = warstwy.begin(); it != warstwy.end(); it++)
     {
@@ -14,8 +15,92 @@ void SiecNeuronowa::usunWarstwe(Warstwa* warstwa) {
             break;
         }
     }
+}*/
+
+vector<Warstwa>& SiecNeuronowa::getWarstwy() {
+    return warstwy;
 }
 
-vector<Warstwa*> SiecNeuronowa::getWarstwy() {
-    return warstwy;
+/*double SiecNeuronowa::E(double *y, double *odp,int n) {
+
+}*/
+
+void SiecNeuronowa::liczB(int nrWar)
+{
+    Warstwa next=warstwy[nrWar+1];
+
+    for(int i=0; i<warstwy[nrWar].getNeurony().size(); i++)
+    {
+        double b=0;
+        for(int j=0; j<next.getNeurony().size(); i++)
+        {
+            b+=next.getNeurony()[j].getB()*next.getNeurony()[j].getWagi()[i];
+        }
+        b=b*warstwy[nrWar].getNeurony()[i].pochodnaAktywacji(warstwy[nrWar].getWejscia());
+        warstwy[nrWar].getNeurony()[i].setB(b);
+
+    }
+}
+
+void SiecNeuronowa::firstB(double *odp) {
+    Warstwa last=warstwy.back();
+    double wynik;
+    for (int i=0; i< last.getNeurony().size(); i++)
+    {
+        wynik=(last.getY()[i]-odp[i])*last.getNeurony()[i].pochodnaAktywacji(last.getWejscia()); //(y-odp) * f'(suma)
+        last.getNeurony()[i].setB(wynik); //zapisujemy ta wartosc dla kazdego neurony z warstwy wyjsciowej w danym wzorcu
+    }
+
+}
+
+
+void SiecNeuronowa::uczSiec(double** zestaw, double** odp, int N) {
+
+    double blad=0;
+    for (int i = 0; i < N; i++)
+    {
+        ////propagacja
+        warstwy[0].obliczY(zestaw[i]);
+        for (int j = 1; j < warstwy.size(); j++) {
+            warstwy[j].obliczY(warstwy[j-1].getY());
+        }
+       // blad+=E(warstwy[warstwy.size()-1].getY(),odp[i],n);
+
+
+       //wsteczna propagacja
+
+       firstB(odp[i]);
+        for(int j=warstwy.size()-2; j>=0; j++)
+        {
+            liczB(j);
+
+        }
+
+        for (int j = warstwy.size()-1; j>=0; j++)
+        {
+
+            for(int k=0; k<warstwy[j].getNeurony().size(); k++)
+            {
+                warstwy[j].getNeurony()[k].sumPoch(warstwy[j].getWejscia());
+            }
+
+        }
+    }
+
+    /*for (int i = 0; i < warstwy.size(); i++) {
+
+        for (int j = 0; j < warstwy[i].getNeurony().size(); j++) {
+            warstwy[i].getNeurony()[j].dzielPoch(N);
+
+
+        }
+    }*/
+
+    /*warstwy[0].obliczY(zestaw[i]);
+    for (int j = 0; j < warstwy.size(); j++) {
+        warstwy[j].obliczY(warstwy[j-1].getY());
+    }*/
+
+    //return warstwy[warstwy.size()-1].getY;
+
 }

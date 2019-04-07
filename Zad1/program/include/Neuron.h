@@ -12,27 +12,40 @@ using namespace std;
 class Neuron {
 private:
     int lb_wag;
-    double stala;
+    double alfa;
     double *wagi;
-    int beta = 1;
-    Trener trener;
+    double *deltaW;
+    int beta;
+    double b;
+    double* pochodna;
+
+    //Trener trener;
 
 public:
     Neuron(int lb_wag);
 
     double random();
 
-    double propagacja(double *wagi);
+    double propagacja(double *wejscia);
 
-    double wstecznaPropagacja();
 
     double aktywacja(double suma);
 
-    double pochodnaAktywacji();
+    double pochodnaAktywacji(double* wejscia);
 
-    void trenowanie(double *wej, bool odp);
+    void setB(double b);
+    double getB();
 
-    double blad();
+    double suma(double *wejscia);
+    double* getWagi();
+
+    void zerPoch();
+
+    void sumPoch(double *wejscia);
+
+    void dzielPoch(int N);
+
+    void zmienWagi();
 
 };
 

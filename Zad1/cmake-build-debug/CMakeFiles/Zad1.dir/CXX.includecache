@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../program/include/Neuron.h
+cstdlib
+-
+ctime
+-
+cmath
+-
+vector
+-
+Trener.h
+../program/include/Trener.h
+
+../program/include/SiecNeuronowa.h
+Warstwa.h
+../program/include/Warstwa.h
+
+../program/include/Trener.h
+
+../program/include/Warstwa.h
+Neuron.h
+../program/include/Neuron.h
+
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.cpp
+SiecNeuronowa.h
+D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.h
+
