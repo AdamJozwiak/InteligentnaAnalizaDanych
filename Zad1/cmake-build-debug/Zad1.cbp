@@ -87,25 +87,37 @@
 		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/Neuron.h">
 			<Option target="Zad1"/>
 		</Unit>
-		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/SiecNeuronowa.h">
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/NeuronBezBiasu.h">
 			<Option target="Zad1"/>
 		</Unit>
-		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/Trener.h">
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/SiecBezBiasu.h">
+			<Option target="Zad1"/>
+		</Unit>
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/SiecNeuronowa.h">
 			<Option target="Zad1"/>
 		</Unit>
 		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/Warstwa.h">
 			<Option target="Zad1"/>
 		</Unit>
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/include/WarstwaBezBiasu.h">
+			<Option target="Zad1"/>
+		</Unit>
 		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Neuron.cpp">
+			<Option target="Zad1"/>
+		</Unit>
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/NeuronBezBiasu.cpp">
+			<Option target="Zad1"/>
+		</Unit>
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecBezBiasu.cpp">
 			<Option target="Zad1"/>
 		</Unit>
 		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.cpp">
 			<Option target="Zad1"/>
 		</Unit>
-		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Trener.cpp">
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Warstwa.cpp">
 			<Option target="Zad1"/>
 		</Unit>
-		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Warstwa.cpp">
+		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/WarstwaBezBiasu.cpp">
 			<Option target="Zad1"/>
 		</Unit>
 		<Unit filename="D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/main.cpp">

@@ -112,19 +112,47 @@ CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\Warstwa.cpp -o CMakeFiles\Zad1.dir\program\src\Warstwa.cpp.s
 
-CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj: CMakeFiles/Zad1.dir/flags.make
-CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj: CMakeFiles/Zad1.dir/includes_CXX.rsp
-CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj: ../program/src/Trener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\Zad1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zad1.dir\program\src\Trener.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\Trener.cpp
+CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj: CMakeFiles/Zad1.dir/flags.make
+CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj: CMakeFiles/Zad1.dir/includes_CXX.rsp
+CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj: ../program/src/NeuronBezBiasu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\Zad1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zad1.dir\program\src\NeuronBezBiasu.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\NeuronBezBiasu.cpp
 
-CMakeFiles/Zad1.dir/program/src/Trener.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zad1.dir/program/src/Trener.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\Trener.cpp > CMakeFiles\Zad1.dir\program\src\Trener.cpp.i
+CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\NeuronBezBiasu.cpp > CMakeFiles\Zad1.dir\program\src\NeuronBezBiasu.cpp.i
 
-CMakeFiles/Zad1.dir/program/src/Trener.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zad1.dir/program/src/Trener.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\Trener.cpp -o CMakeFiles\Zad1.dir\program\src\Trener.cpp.s
+CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\NeuronBezBiasu.cpp -o CMakeFiles\Zad1.dir\program\src\NeuronBezBiasu.cpp.s
+
+CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj: CMakeFiles/Zad1.dir/flags.make
+CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj: CMakeFiles/Zad1.dir/includes_CXX.rsp
+CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj: ../program/src/WarstwaBezBiasu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\Zad1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zad1.dir\program\src\WarstwaBezBiasu.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\WarstwaBezBiasu.cpp
+
+CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\WarstwaBezBiasu.cpp > CMakeFiles\Zad1.dir\program\src\WarstwaBezBiasu.cpp.i
+
+CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\WarstwaBezBiasu.cpp -o CMakeFiles\Zad1.dir\program\src\WarstwaBezBiasu.cpp.s
+
+CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj: CMakeFiles/Zad1.dir/flags.make
+CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj: CMakeFiles/Zad1.dir/includes_CXX.rsp
+CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj: ../program/src/SiecBezBiasu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Studia\InteligentnaAnalizaDanych\Zad1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zad1.dir\program\src\SiecBezBiasu.cpp.obj -c D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\SiecBezBiasu.cpp
+
+CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\SiecBezBiasu.cpp > CMakeFiles\Zad1.dir\program\src\SiecBezBiasu.cpp.i
+
+CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Studia\InteligentnaAnalizaDanych\Zad1\program\src\SiecBezBiasu.cpp -o CMakeFiles\Zad1.dir\program\src\SiecBezBiasu.cpp.s
 
 # Object files for target Zad1
 Zad1_OBJECTS = \
@@ -132,7 +160,9 @@ Zad1_OBJECTS = \
 "CMakeFiles/Zad1.dir/program/src/Neuron.cpp.obj" \
 "CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.obj" \
 "CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.obj" \
-"CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj"
+"CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj" \
+"CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj" \
+"CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj"
 
 # External object files for target Zad1
 Zad1_EXTERNAL_OBJECTS =
@@ -141,12 +171,14 @@ Zad1.exe: CMakeFiles/Zad1.dir/program/src/main.cpp.obj
 Zad1.exe: CMakeFiles/Zad1.dir/program/src/Neuron.cpp.obj
 Zad1.exe: CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.obj
 Zad1.exe: CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.obj
-Zad1.exe: CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj
+Zad1.exe: CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj
+Zad1.exe: CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj
+Zad1.exe: CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj
 Zad1.exe: CMakeFiles/Zad1.dir/build.make
 Zad1.exe: CMakeFiles/Zad1.dir/linklibs.rsp
 Zad1.exe: CMakeFiles/Zad1.dir/objects1.rsp
 Zad1.exe: CMakeFiles/Zad1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Studia\InteligentnaAnalizaDanych\Zad1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Zad1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Studia\InteligentnaAnalizaDanych\Zad1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Zad1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Zad1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

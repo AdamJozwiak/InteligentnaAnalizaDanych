@@ -4,21 +4,23 @@
 #include "Neuron.h"
 
 class Warstwa {
-private:
-    vector<Neuron> neurony;
-    double* wejscia;
-    double* y;
+protected:
+    vector<Neuron *> neurony;
+    double *wejscia;
+    double *y;
     int lb_wejsc;
 public:
-    Warstwa(int lb_neur, int lb_wejsc);
-    void dodajNeuron(Neuron);
-    void usunNeuron(Neuron);
-    vector<Neuron>& getNeurony();
-    void obliczY(double* wejscia);
-    double* getY();
-    double lbNeur();
-    double* getWejscia();
+    vector<Neuron *> getNeurony();
+
+    virtual void stworzNeurony(int lb_neur, int lb_wejsc, bool akt);
+
+    void obliczY(double *wejscia);
+
+    double *getY();
+
+    double *getWejscia();
 
 
 };
+
 #endif

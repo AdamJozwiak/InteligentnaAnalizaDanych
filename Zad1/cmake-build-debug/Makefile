@@ -149,6 +149,60 @@ program/src/Neuron.cpp.s:
 	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Neuron.cpp.s
 .PHONY : program/src/Neuron.cpp.s
 
+program/src/NeuronBezBiasu.obj: program/src/NeuronBezBiasu.cpp.obj
+
+.PHONY : program/src/NeuronBezBiasu.obj
+
+# target to build an object file
+program/src/NeuronBezBiasu.cpp.obj:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj
+.PHONY : program/src/NeuronBezBiasu.cpp.obj
+
+program/src/NeuronBezBiasu.i: program/src/NeuronBezBiasu.cpp.i
+
+.PHONY : program/src/NeuronBezBiasu.i
+
+# target to preprocess a source file
+program/src/NeuronBezBiasu.cpp.i:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.i
+.PHONY : program/src/NeuronBezBiasu.cpp.i
+
+program/src/NeuronBezBiasu.s: program/src/NeuronBezBiasu.cpp.s
+
+.PHONY : program/src/NeuronBezBiasu.s
+
+# target to generate assembly for a file
+program/src/NeuronBezBiasu.cpp.s:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.s
+.PHONY : program/src/NeuronBezBiasu.cpp.s
+
+program/src/SiecBezBiasu.obj: program/src/SiecBezBiasu.cpp.obj
+
+.PHONY : program/src/SiecBezBiasu.obj
+
+# target to build an object file
+program/src/SiecBezBiasu.cpp.obj:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj
+.PHONY : program/src/SiecBezBiasu.cpp.obj
+
+program/src/SiecBezBiasu.i: program/src/SiecBezBiasu.cpp.i
+
+.PHONY : program/src/SiecBezBiasu.i
+
+# target to preprocess a source file
+program/src/SiecBezBiasu.cpp.i:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.i
+.PHONY : program/src/SiecBezBiasu.cpp.i
+
+program/src/SiecBezBiasu.s: program/src/SiecBezBiasu.cpp.s
+
+.PHONY : program/src/SiecBezBiasu.s
+
+# target to generate assembly for a file
+program/src/SiecBezBiasu.cpp.s:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.s
+.PHONY : program/src/SiecBezBiasu.cpp.s
+
 program/src/SiecNeuronowa.obj: program/src/SiecNeuronowa.cpp.obj
 
 .PHONY : program/src/SiecNeuronowa.obj
@@ -176,33 +230,6 @@ program/src/SiecNeuronowa.cpp.s:
 	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.s
 .PHONY : program/src/SiecNeuronowa.cpp.s
 
-program/src/Trener.obj: program/src/Trener.cpp.obj
-
-.PHONY : program/src/Trener.obj
-
-# target to build an object file
-program/src/Trener.cpp.obj:
-	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj
-.PHONY : program/src/Trener.cpp.obj
-
-program/src/Trener.i: program/src/Trener.cpp.i
-
-.PHONY : program/src/Trener.i
-
-# target to preprocess a source file
-program/src/Trener.cpp.i:
-	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Trener.cpp.i
-.PHONY : program/src/Trener.cpp.i
-
-program/src/Trener.s: program/src/Trener.cpp.s
-
-.PHONY : program/src/Trener.s
-
-# target to generate assembly for a file
-program/src/Trener.cpp.s:
-	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Trener.cpp.s
-.PHONY : program/src/Trener.cpp.s
-
 program/src/Warstwa.obj: program/src/Warstwa.cpp.obj
 
 .PHONY : program/src/Warstwa.obj
@@ -229,6 +256,33 @@ program/src/Warstwa.s: program/src/Warstwa.cpp.s
 program/src/Warstwa.cpp.s:
 	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.s
 .PHONY : program/src/Warstwa.cpp.s
+
+program/src/WarstwaBezBiasu.obj: program/src/WarstwaBezBiasu.cpp.obj
+
+.PHONY : program/src/WarstwaBezBiasu.obj
+
+# target to build an object file
+program/src/WarstwaBezBiasu.cpp.obj:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj
+.PHONY : program/src/WarstwaBezBiasu.cpp.obj
+
+program/src/WarstwaBezBiasu.i: program/src/WarstwaBezBiasu.cpp.i
+
+.PHONY : program/src/WarstwaBezBiasu.i
+
+# target to preprocess a source file
+program/src/WarstwaBezBiasu.cpp.i:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.i
+.PHONY : program/src/WarstwaBezBiasu.cpp.i
+
+program/src/WarstwaBezBiasu.s: program/src/WarstwaBezBiasu.cpp.s
+
+.PHONY : program/src/WarstwaBezBiasu.s
+
+# target to generate assembly for a file
+program/src/WarstwaBezBiasu.cpp.s:
+	$(MAKE) -f CMakeFiles\Zad1.dir\build.make CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.s
+.PHONY : program/src/WarstwaBezBiasu.cpp.s
 
 program/src/main.obj: program/src/main.cpp.obj
 
@@ -269,15 +323,21 @@ help:
 	@echo ... program/src/Neuron.obj
 	@echo ... program/src/Neuron.i
 	@echo ... program/src/Neuron.s
+	@echo ... program/src/NeuronBezBiasu.obj
+	@echo ... program/src/NeuronBezBiasu.i
+	@echo ... program/src/NeuronBezBiasu.s
+	@echo ... program/src/SiecBezBiasu.obj
+	@echo ... program/src/SiecBezBiasu.i
+	@echo ... program/src/SiecBezBiasu.s
 	@echo ... program/src/SiecNeuronowa.obj
 	@echo ... program/src/SiecNeuronowa.i
 	@echo ... program/src/SiecNeuronowa.s
-	@echo ... program/src/Trener.obj
-	@echo ... program/src/Trener.i
-	@echo ... program/src/Trener.s
 	@echo ... program/src/Warstwa.obj
 	@echo ... program/src/Warstwa.i
 	@echo ... program/src/Warstwa.s
+	@echo ... program/src/WarstwaBezBiasu.obj
+	@echo ... program/src/WarstwaBezBiasu.i
+	@echo ... program/src/WarstwaBezBiasu.s
 	@echo ... program/src/main.obj
 	@echo ... program/src/main.i
 	@echo ... program/src/main.s

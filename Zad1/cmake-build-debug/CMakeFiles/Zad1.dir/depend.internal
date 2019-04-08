@@ -3,25 +3,40 @@
 
 CMakeFiles/Zad1.dir/program/src/Neuron.cpp.obj
  ../program/include/Neuron.h
- ../program/include/Trener.h
  D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Neuron.cpp
+CMakeFiles/Zad1.dir/program/src/NeuronBezBiasu.cpp.obj
+ ../program/include/Neuron.h
+ ../program/include/NeuronBezBiasu.h
+ D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/NeuronBezBiasu.cpp
+CMakeFiles/Zad1.dir/program/src/SiecBezBiasu.cpp.obj
+ ../program/include/Neuron.h
+ ../program/include/NeuronBezBiasu.h
+ ../program/include/SiecBezBiasu.h
+ ../program/include/SiecNeuronowa.h
+ ../program/include/Warstwa.h
+ ../program/include/WarstwaBezBiasu.h
+ D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecBezBiasu.cpp
 CMakeFiles/Zad1.dir/program/src/SiecNeuronowa.cpp.obj
  ../program/include/Neuron.h
  ../program/include/SiecNeuronowa.h
- ../program/include/Trener.h
  ../program/include/Warstwa.h
  D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/SiecNeuronowa.cpp
-CMakeFiles/Zad1.dir/program/src/Trener.cpp.obj
- ../program/include/Trener.h
- D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Trener.cpp
 CMakeFiles/Zad1.dir/program/src/Warstwa.cpp.obj
  ../program/include/Neuron.h
- ../program/include/Trener.h
  ../program/include/Warstwa.h
  D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/Warstwa.cpp
+CMakeFiles/Zad1.dir/program/src/WarstwaBezBiasu.cpp.obj
+ ../program/include/Neuron.h
+ ../program/include/NeuronBezBiasu.h
+ ../program/include/Warstwa.h
+ ../program/include/WarstwaBezBiasu.h
+ D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/WarstwaBezBiasu.cpp
 CMakeFiles/Zad1.dir/program/src/main.cpp.obj
  ../program/include/Neuron.h
+ ../program/include/NeuronBezBiasu.h
+ ../program/include/SiecBezBiasu.h
  ../program/include/SiecNeuronowa.h
- ../program/include/Trener.h
  ../program/include/Warstwa.h
+ ../program/include/WarstwaBezBiasu.h
+ D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/gnuplot_i.hpp
  D:/Studia/InteligentnaAnalizaDanych/Zad1/program/src/main.cpp

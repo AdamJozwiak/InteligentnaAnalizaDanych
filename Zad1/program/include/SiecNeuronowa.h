@@ -6,22 +6,23 @@
 using namespace std;
 
 class SiecNeuronowa {
-private:
-    vector<Warstwa> warstwy;
-
-
+protected:
+    vector<Warstwa *> warstwy;
 public:
-    double E;
-    //SiecNeuronowa();
-    void dodajWarstwe(int, int);
-    void usunWarstwe(Warstwa);
-    vector<Warstwa>& getWarstwy();
-    void uczSiec(double** zestaw, double** odp, int n);
-    double* oblicz(double *wejscia);
-//    double E(double* y, double* odp);
-    void liczB(int);
+
+    vector<Warstwa *> getWarstwy();
+
+    virtual void liczB(int);
+
+    void dodajWarstwe(int, int, bool);
+
+    void uczSiec(double **zestaw, double **odp, int n);
+
     void firstB(double *odp);
-    double* getY(double *wejscia);
+
+    double *getY(double *wejscia);
+
+    double E;
 };
 
 #endif
