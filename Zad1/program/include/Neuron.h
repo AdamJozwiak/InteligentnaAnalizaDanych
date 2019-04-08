@@ -1,51 +1,49 @@
 #ifndef ZAD1_NEURON_H
 #define ZAD1_NEURON_H
-
 #include <cstdlib>
 #include <ctime>
 #include <cmath>
 #include <vector>
-#include "Trener.h"
+#include <iostream>
 
 using namespace std;
 
 class Neuron {
-private:
+protected:
     int lb_wag;
     double alfa;
     double *wagi;
+    double beta;
     double *deltaW;
-    int beta;
     double b;
     double* pochodna;
-
-    //Trener trener;
-
 public:
+
     Neuron(int lb_wag);
 
     double random();
 
-    double propagacja(double *wejscia);
-
-
     double aktywacja(double suma);
 
-    double pochodnaAktywacji(double* wejscia);
+    virtual double pochodnaAktywacji(double* wejscia);
 
-    void setB(double b);
-    double getB();
+    virtual double propagacja(double *wejscia);
 
-    double suma(double *wejscia);
-    double* getWagi();
+    virtual double suma(double *wejscia);
+
+    virtual void sumPoch(double *wejscia);
 
     void zerPoch();
-
-    void sumPoch(double *wejscia);
 
     void dzielPoch(int N);
 
     void zmienWagi();
+
+    void setB(double b);
+
+    double getB();
+
+    double* getWagi();
 
 };
 
