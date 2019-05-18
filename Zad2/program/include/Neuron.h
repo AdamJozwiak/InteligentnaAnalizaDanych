@@ -1,19 +1,14 @@
+
 #ifndef ZAD2_NEURON_H
 #define ZAD2_NEURON_H
 
-#include "iostream"
-#include "vector"
-#include "cstdlib"
-#include "cmath"
+class Neuron{
 
-using namespace std;
-
-class Neuron {
 private:
-    double **pozycja;
+    double x;
+    double y;
+    double aktywnosc;
 public:
-    double trojkat(double punkty);
-    double okrag(double promien);
+    Neuron();
 };
-
-#endif
+#endif //ZAD2_NEURON_H
