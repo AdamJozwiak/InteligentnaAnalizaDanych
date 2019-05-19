@@ -12,6 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb58bed2-fdad-498b-91de-6faa44c933f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad2/program/include/Neuron.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/program/include/Neuron.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad2/program/include/NieWiem.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/program/include/Plaszczyzna.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad2/program/src/Neuron.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/program/src/Neuron.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zad2/program/src/NieWiem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/program/src/Plaszczyzna.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Zad2/program/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/program/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -82,7 +88,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/program/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
+            <state relative-caret-position="425">
               <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -94,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program/include/Neuron.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
+            <state relative-caret-position="697">
               <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
             </state>
           </provider>
@@ -148,10 +154,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="309" />
-    <option name="y" value="69" />
-    <option name="width" value="974" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -257,18 +262,18 @@
       <workItem from="1558206474314" duration="213000" />
       <workItem from="1558208162672" duration="1257000" />
       <workItem from="1558269051152" duration="18000" />
-      <workItem from="1558270444088" duration="2374000" />
+      <workItem from="1558270444088" duration="3361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76014000" />
+    <option name="totallyTimeSpent" value="77001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36222222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,27 +437,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/src/main.cpp">
+    <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/program/include/Neuron.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state relative-caret-position="697">
           <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/program/src/Neuron.cpp">
+    <entry file="file://$PROJECT_DIR$/program/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ctime>
-#include "NieWiem.h"
+#include "Plaszczyzna.h"
 #include "gnuplot_i.hpp"
 #define GNUPLOT_PATH "D:\\gnuplocik\\gnuplot\\bin"
 int main() {
@@ -18,28 +18,46 @@ int main() {
 
 
 
-    NieWiem nieWiem(10);
+    Plaszczyzna plaszczyzna(10);
     Punkt punkt1(3.0,4.0), punkt2(30.0,40.0);
 
     vector<Punkt> wektor;
     wektor.push_back(punkt1);
     wektor.push_back(punkt2);
-    nieWiem.prostokat(wektor,200);
-    for(int i=0;i<50;i++){
-        nieWiem.algKohonen();`
-        nieWiem.lotto();
+    plaszczyzna.prostokat(wektor,200);
+    for(int i=0;i<40;i++){
+        plaszczyzna.algSrednich();
+        plaszczyzna.lotto();
     }
     vector<double> osX;
     vector<double> osY;
-    for(int i=0; i<nieWiem.getPunkty().size(); i++)
+    /*for(int i=0; i<plaszczyzna.getPunkty().size(); i++)
     {
-        osX.push_back(nieWiem.getPunkty()[i].getX());
-        osY.push_back(nieWiem.getPunkty()[i].getY());
+        osX.push_back(plaszczyzna.getPunkty()[i].getX());
+        osY.push_back(plaszczyzna.getPunkty()[i].getY());
+    }*/
+
+    for(int i=0; i<plaszczyzna.getNeurony().size(); i++){
+        for(int j=0; j<plaszczyzna.getNeurony()[i].getPkt().size(); j++){
+            osX.push_back(plaszczyzna.getNeurony()[i].getPkt()[j].getX());
+            osY.push_back(plaszczyzna.getNeurony()[i].getPkt()[j].getY());
+        }
+        if(plaszczyzna.getNeurony()[i].getPkt().size()!=0) {
+            main_plot.plot_xy(osX, osY);
+            osX.clear();
+            osY.clear();
+        }
     }
 
+
+    for(int i=0; i<plaszczyzna.getNeurony().size(); i++)
+    {
+        osX.push_back(plaszczyzna.getNeurony()[i].getX());
+        osY.push_back(plaszczyzna.getNeurony()[i].getY());
+    }
     main_plot.plot_xy(osX, osY);
     getchar();
-    //nieWiem.rysuj();
+    //plaszczyzna.rysuj();
 
     return 0;
 }
