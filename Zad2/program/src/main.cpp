@@ -26,7 +26,7 @@ int main() {
     wektor.push_back(punkt2);
     nieWiem.prostokat(wektor,200);
     for(int i=0;i<50;i++){
-        nieWiem.algKohonen();
+        nieWiem.algKohonen();`
         nieWiem.lotto();
     }
     vector<double> osX;
