@@ -22,6 +22,7 @@ private:
 
 public:
     Plaszczyzna(int iloscNeur);
+    Plaszczyzna(int iloscNeur, vector<Punkt> punkty);
     double trojkat(vector<double, double> wierzcholki, int n);
     double okrag(vector<double, double> promien, int n);
     void prostokat(vector<Punkt> wierzcholki, int n);

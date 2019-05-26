@@ -13,7 +13,7 @@ class Neuron{
 private:
     double x;
     double y;
-    double aktywnosc;
+    int zmeczenie;
     vector<Punkt> punktyNeur;
 public:
     Neuron();
@@ -24,6 +24,9 @@ public:
     void addPkt(Punkt punkt);
     void clear();
     void usrednij();
+    void zmecz();
+    void odpocznij();
+    int getZmeczenie();
     vector<Punkt> getPkt();
 
 };

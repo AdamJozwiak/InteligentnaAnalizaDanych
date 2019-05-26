@@ -7,6 +7,14 @@ Plaszczyzna::Plaszczyzna(int iloscNeur) {
     alpha=0.1;
 }
 
+Plaszczyzna::Plaszczyzna(int iloscNeur, vector<Punkt> punkty) {
+    this->punkty=punkty;
+    for(int i=0; i<iloscNeur; i++){
+        Neuron neuron;
+        neurony.push_back(neuron);
+    }
+}
+
 void Plaszczyzna::prostokat(vector<Punkt> wierzcholki, int n)  {
     for(int i=0; i<n; i++) {
         double xy[2];
@@ -25,12 +33,16 @@ void Plaszczyzna::lotto() {
 }
 
 int Plaszczyzna::znajdzNajblizszy(int i) {
-    double odl=sqrt(pow(punkty[i].getX()-neurony[0].getX(),2) + pow(punkty[i].getY()-neurony[0].getY(),2));
-    double winNum=0;
+    double odl;//=sqrt(pow(punkty[i].getX()-neurony[0].getX(),2) + pow(punkty[i].getY()-neurony[0].getY(),2));
+    int winNum,g=0;
+    do{
+       winNum =g;
+        odl=sqrt(pow(punkty[i].getX()-neurony[g].getX(),2) + pow(punkty[i].getY()-neurony[g].getY(),2));
+    }while(neurony[g].getZmeczenie()!=0);
     double pom;
     for(int j=1; j<neurony.size(); j++){
         pom=sqrt(pow(punkty[i].getX()-neurony[j].getX(),2) + pow(punkty[i].getY()-neurony[j].getY(),2));
-        if(pom<odl) {odl=pom; winNum=j;}
+        if(pom<odl && neurony[j].getZmeczenie()==0) {odl=pom; winNum=j;}
     }
     return winNum;
 
@@ -84,8 +96,8 @@ void Plaszczyzna::algGazNeur() {
         //int winNum=znajdzNajblizszy(i);
         //neurony[winNum].addPkt(punkty[i]);
         for(int j=0; j<neurony.size(); j++){
-            double nowyX=neurony[j].getX()+alpha*exp(-j/10)*(punkty[i].getX()-neurony[j].getX());
-            double nowyY=neurony[j].getY()+alpha*exp(-j/10)*(punkty[i].getY()-neurony[j].getY());
+            double nowyX=neurony[j].getX()+alpha*exp(-j/0.3)*(punkty[i].getX()-neurony[j].getX());
+            double nowyY=neurony[j].getY()+alpha*exp(-j/0.3)*(punkty[i].getY()-neurony[j].getY());
             neurony[j].setXY(nowyX, nowyY);
         }
     }

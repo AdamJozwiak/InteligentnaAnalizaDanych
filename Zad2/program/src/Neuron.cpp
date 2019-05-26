@@ -1,11 +1,12 @@
 #include "Neuron.h"
 
 Neuron::Neuron() {
-    do {
-        x = (double) (-10000 + rand() % 20000) / 100;
-        y = (double) (-10000 + rand() % 20000) / 100;
-    }while (x < 3.0 || y < 4.0 || x > 30.0 ||
-           y>40.0 );
+    //do {
+        x = (double) (-1000 + rand() % 2500) / 100;
+        y = (double) (-1500 + rand() % 2500) / 100;
+        zmeczenie=0;
+    //}while (x < 3.0 || y < 4.0 || x > 30.0 ||
+           //y>40.0 );
 }
 
 double Neuron::getX() {
@@ -47,4 +48,16 @@ void Neuron::usrednij() {
     sredniaY/=punktyNeur.size();
     x=sredniaX;
     y=sredniaY;
+}
+
+void Neuron::zmecz() {
+    zmeczenie=5;
+}
+
+void Neuron::odpocznij() {
+    zmeczenie--;
+}
+
+int Neuron::getZmeczenie() {
+    return zmeczenie;
 }
