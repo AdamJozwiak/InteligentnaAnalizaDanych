@@ -27,7 +27,9 @@ void Neuron::setY(double y) {
 }
 
 void Neuron::addPkt(Punkt punkt) {
+    //cout<<"test 4 "<<endl;
     punktyNeur.push_back(punkt);
+    //cout<<"test 5 "<<endl;
 }
 
 void Neuron::clear() {
@@ -51,11 +53,11 @@ void Neuron::usrednij() {
 }
 
 void Neuron::zmecz() {
-    zmeczenie=5;
+    zmeczenie=20;
 }
 
 void Neuron::odpocznij() {
-    zmeczenie--;
+    if (zmeczenie>0) zmeczenie--;
 }
 
 int Neuron::getZmeczenie() {

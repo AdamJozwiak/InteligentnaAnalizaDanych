@@ -18,21 +18,23 @@ class Plaszczyzna {
 private:
     vector<Punkt> punkty;
     vector<Neuron> neurony;
-    double alpha;
+
 
 public:
+    double alpha;
     Plaszczyzna(int iloscNeur);
     Plaszczyzna(int iloscNeur, vector<Punkt> punkty);
     double trojkat(vector<double, double> wierzcholki, int n);
     double okrag(vector<double, double> promien, int n);
     void prostokat(vector<Punkt> wierzcholki, int n);
-    double theta(int j, int winIt);
+    double theta(int j, int winIt, int it);
     void lotto();
     int znajdzNajblizszy(int i);
     void algKohonen();
     void sortNeur(int i);
     void algGazNeur();
     void algSrednich();
+    double lam(int it);
     vector<Punkt> getPunkty();
     vector<Neuron> getNeurony();
     void rysuj();

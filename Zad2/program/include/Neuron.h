@@ -2,6 +2,7 @@
 #ifndef ZAD2_NEURON_H
 #define ZAD2_NEURON_H
 
+#include <iostream>
 #include <ctime>
 #include <cstdlib>
 #include <vector>

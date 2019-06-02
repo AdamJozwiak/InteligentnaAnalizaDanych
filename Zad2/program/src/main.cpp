@@ -21,9 +21,11 @@ int main() {
 
 
     //WCZYTYWANIE Z PLIKU
+
     vector<Punkt> punkty;
     vector<double> osX;
     vector<double> osY;
+
     double x=0,y=0;
     ifstream plik;
     plik.open("D:\\Studia\\InteligentnaAnalizaDanych\\Zad2\\program\\src\\dane.txt");
@@ -32,56 +34,53 @@ int main() {
         plik>>x;
         plik>>y;
         Punkt punkt(x,y);
+        osX.push_back(x);
+        osY.push_back(y);
         punkty.push_back(punkt);
-        //osX.push_back(x);
 
-        //osY.push_back(y);
-    }
-///////////////////////////////////////////////
-
-
-    Plaszczyzna plaszczyzna(10,punkty);
-    //Punkt punkt1(3.0,4.0), punkt2(30.0,40.0);
-
-    vector<Punkt> wektor;
-
-    /*wektor.push_back(punkt1);
-    wektor.push_back(punkt2);
-    plaszczyzna.prostokat(wektor,200);*/
-    for(int i=0;i<20;i++){
-        plaszczyzna.algSrednich();
-        plaszczyzna.lotto();
     }
 
-    /*for(int i=0; i<plaszczyzna.getPunkty().size(); i++)
-    {
-        osX.push_back(plaszczyzna.getPunkty()[i].getX());
-        osY.push_back(plaszczyzna.getPunkty()[i].getY());
-    }*/
 
-    for(int i=0; i<plaszczyzna.getNeurony().size(); i++){
-        for(int j=0; j<plaszczyzna.getNeurony()[i].getPkt().size(); j++){
-            osX.push_back(plaszczyzna.getNeurony()[i].getPkt()[j].getX());
-            osY.push_back(plaszczyzna.getNeurony()[i].getPkt()[j].getY());
-        }
-        if(plaszczyzna.getNeurony()[i].getPkt().size()!=0) {
-            main_plot.plot_xy(osX, osY);
-            osX.clear();
-            osY.clear();
-        }
-    }
+    //DODANIE PUNKTOW I NEURONOW W POCZATKOWYM POLOZENIU
 
+    Plaszczyzna plaszczyzna(150,punkty);
+    //cout<<plaszczyzna.alpha;
+    main_plot.plot_xy(osX, osY);
+    osX.clear();
+    osY.clear();
 
     for(int i=0; i<plaszczyzna.getNeurony().size(); i++)
     {
         osX.push_back(plaszczyzna.getNeurony()[i].getX());
         osY.push_back(plaszczyzna.getNeurony()[i].getY());
     }
-    //plik.close();
+
+    main_plot.plot_xy(osX, osY);
+    osX.clear();
+    osY.clear();
+    getchar();
+
+
+    //NAUCZANIE NEURONOW WYBRANYM ALGORYTMEM
+
+    for(int i=0;i<20;i++){
+        plaszczyzna.algSrednich();
+        plaszczyzna.lotto();
+    }
+
+
+    //RYSOWANIE NEURONOW W KONCOWYM POLOZENIU
+    for(int i=0; i<plaszczyzna.getNeurony().size(); i++)
+    {
+        //cout<<plaszczyzna.getNeurony()[i].getX()<<endl;
+        osX.push_back(plaszczyzna.getNeurony()[i].getX());
+        osY.push_back(plaszczyzna.getNeurony()[i].getY());
+    }
+
+    plik.close();
 
     main_plot.plot_xy(osX, osY);
     getchar();
-    //plaszczyzna.rysuj();
 
 
     return 0;
