@@ -18,9 +18,12 @@ void NeuronRad::uczNeuron(double punkt) {
 
 void NeuronRad::setSigma(int P, vector<NeuronRad> posortowane){
      sigma=0;
-    for(int i=1; i<P; i++){
-        sigma+=pow(centrum - posortowane[i].getWsp(),2);
-    }
+     if(P>=posortowane.size()) sigma=1;
+     else {
+         for (int i = 1; i < P; i++) {
+             sigma += pow(centrum - posortowane[i].getWsp(), 2);
+         }
+     }
     //cout<<"sigma"<<sigma/P<<endl;
     //sigma=sqrt(sigma/P);
 

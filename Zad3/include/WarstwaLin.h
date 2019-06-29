@@ -7,14 +7,15 @@
 using namespace std;
 class WarstwaLin{
 private:
-    vector<NeuronLin> neurony;
+
     vector<double> wejscia;
     double y;
     int lb_wejsc;
     double E;
 public:
+    vector<NeuronLin> neurony;
     WarstwaLin(int lb_wejsc);
-    double getY();
+    double getY(vector<double> wejscia);
     void obliczY(vector<double> wejscia);
     void uczNeuron(vector<double> wejscia, double odp);
     void obliczB(double odp, vector<double> wejscia);

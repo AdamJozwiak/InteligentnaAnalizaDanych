@@ -12,7 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c241467a-0c89-41a6-a19b-050a4db6693a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Zad2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zad2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/src/NeuronLin.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/src/NeuronLin.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/src/WarstwaLin.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/src/WarstwaLin.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/src/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Zad3.dir/src/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Zad3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Zad3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/NeuronLin.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/NeuronLin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/WarstwaLin.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/WarstwaLin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuronLin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuronLin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NeuronRad.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/NeuronRad.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarstwaLin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/WarstwaLin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +37,20 @@
     <session id="-1108647545">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.58" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="3146" />
-          <entry key="h" value="1409" />
+          <entry key="cpp" value="3768" />
+          <entry key="h" value="1456" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
@@ -45,12 +58,12 @@
         <counts>
           <entry key="CMakeLists.txt" value="10" />
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="4554" />
+          <entry key="ObjectiveC" value="5223" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="10" />
+          <entry key="cpp" value="12" />
           <entry key="h" value="14" />
           <entry key="tcc" value="1" />
           <entry key="txt" value="2" />
@@ -58,7 +71,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="25" />
+          <entry key="ObjectiveC" value="27" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -66,20 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NeuronLin.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/WarstwaLin.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="e#53#70#0" expanded="true" />
               </folding>
@@ -90,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/NeuronLin.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="e#52#70#0" expanded="true" />
               </folding>
@@ -111,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="288">
+              <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -124,10 +128,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NeuronLin.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1103">
+              <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NeuronRad.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WarstwaLin.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="493">
+              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -148,14 +170,14 @@
         <option value="$PROJECT_DIR$/src/klasaSortNeur.cpp" />
         <option value="$PROJECT_DIR$/include/NeuronRad.h" />
         <option value="$PROJECT_DIR$/include/klasaSortNeur.h" />
-        <option value="$PROJECT_DIR$/include/NeuronLin.h" />
-        <option value="$PROJECT_DIR$/src/NeuronLin.cpp" />
         <option value="$PROJECT_DIR$/include/WarstwaRad.h" />
-        <option value="$PROJECT_DIR$/src/NeuronRad.cpp" />
-        <option value="$PROJECT_DIR$/src/WarstwaLin.cpp" />
         <option value="$PROJECT_DIR$/src/WarstwaRad.cpp" />
-        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/include/NeuronLin.h" />
+        <option value="$PROJECT_DIR$/src/WarstwaLin.cpp" />
         <option value="$PROJECT_DIR$/include/WarstwaLin.h" />
+        <option value="$PROJECT_DIR$/src/NeuronLin.cpp" />
+        <option value="$PROJECT_DIR$/src/NeuronRad.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -201,6 +223,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -253,17 +276,18 @@
       <workItem from="1561117429764" duration="11537000" />
       <workItem from="1561306096376" duration="3712000" />
       <workItem from="1561311339253" duration="17189000" />
+      <workItem from="1561481180359" duration="5489000" />
+      <workItem from="1561552109720" duration="2387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37469000" />
+    <option name="totallyTimeSpent" value="45345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19444445" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20333333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,17 +314,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/main.cpp</url>
-          <line>98</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -345,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuronRad.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="46" column="16" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
@@ -387,10 +393,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="805" selection-start-line="805" selection-end-line="805" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/WarstwaLin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="e#53#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/NeuronLin.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#52#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WarstwaLin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        <state relative-caret-position="493">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -404,47 +437,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/lib/gcc/i686-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h">
+    <entry file="file://$PROJECT_DIR$/src/NeuronLin.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="805" selection-start-line="805" selection-end-line="805" />
+        <state relative-caret-position="1103">
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NeuronRad.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="288">
+          <caret line="51" column="41" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/NeuronLin.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="e#52#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/WarstwaLin.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#53#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NeuronLin.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>

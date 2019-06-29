@@ -6,37 +6,40 @@ WarstwaLin::WarstwaLin(int lb_wejsc) {
     E=0;
 }
 
-double WarstwaLin::getY() {
+double WarstwaLin::getY(vector<double> wejscia) {
+    y = neurony[0].suma(wejscia);
     return y;
 }
 
 void WarstwaLin::obliczY(vector<double> wejscia) {
-    this->wejscia = wejscia;
-        y = neurony[0].propagacja(wejscia);
+    //this->wejscia = wejscia;
+        y = neurony[0].suma(wejscia);
 }
 
-void WarstwaLin::obliczB(double odp, vector<double> wejscia) {
-    double wynik;
-    wynik=(getY()-odp) * neurony[0].pochodnaAktywacji(wejscia);
-    neurony[0].setB(wynik);
-}
+//void WarstwaLin::obliczB(double odp, vector<double> wejscia) {
+//    double wynik;
+//    wynik=(getY()-odp) * neurony[0].pochodnaAktywacji(wejscia);
+//    neurony[0].setB(wynik);
+//}
 
 void WarstwaLin::uczNeuron(vector<double> wejscia, double odp) {
-    //cout<<"t"<<endl;
-    obliczY(wejscia);
-    //cout<<"t1"<<endl;
-    obliczB(odp, wejscia);
-    neurony[0].sumPoch(wejscia);
-   // cout<<"t2"<<endl;
-    E+=pow(getY() - odp, 2);
-    //cout<<"t3"<<endl;
+//    //cout<<"t"<<endl;
+//    obliczY(wejscia);
+//    //cout<<"t1"<<endl;
+//    obliczB(odp, wejscia);
+//    neurony[0].sumPoch(wejscia);
+//   // cout<<"t2"<<endl;
+//    E+=pow(getY() - odp, 2);
+//    //cout<<"t3"<<endl;
+
+    neurony[0].zmienWagi(wejscia, odp);
 }
 
-void WarstwaLin::zmienWagi(int N) {
-    E/=2*N;
-    neurony[0].dzielPoch(N);
-    neurony[0].zmienWagi();
-}
+//void WarstwaLin::zmienWagi(int N) {
+//    E/=2*N;
+//    neurony[0].dzielPoch(N);
+//    neurony[0].zmienWagi();
+//}
 
 void WarstwaLin::zeruj() {
     neurony[0].zerPoch();

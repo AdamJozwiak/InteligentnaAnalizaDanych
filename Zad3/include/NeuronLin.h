@@ -36,7 +36,7 @@ public:
 
     void dzielPoch(int N);
 
-    void zmienWagi();
+    void zmienWagi(vector<double> wejscia, double odp);
 
     void setB(double b);
 

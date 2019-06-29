@@ -49,30 +49,30 @@ int main() {
     osY.clear();
     getchar();*/
 
-    WarstwaRad warstwaRad(30,randomC(osX,30));
-    WarstwaLin warstwaLin(30);
+    WarstwaRad warstwaRad(5,randomC(osX,5));
+    WarstwaLin warstwaLin(5);
 
     for(int i=0; i<100; i++){
-       // cout<<warstwaRad.getY(osX[1])[1]<<endl;
+        //cout<<"rad wyjscia: "<<warstwaRad.getY(osX[1])[1]<<endl;
         warstwaRad.uczNeurony(osX);
 
     }
 
 
     vector<double> wyjsciaRad;
-    for(int i=0; i<10000; i++){
-        //cout<<i<<endl;
-        warstwaLin.zeruj();
-
+    for(int i=0; i<4000; i++){
         for(int j=0; j<osY.size(); j++) {
+//            for(int i=0; i<30; i++){
+//                //cout<<"waga "<<i<<": "<<warstwaLin.neurony[0].getWagi()[i]<<endl;
+//            }
             wyjsciaRad = warstwaRad.getY(osX[j]);
 
-            //cout<<"wielkosc wyjsciaRad: "<<wyjsciaRad.size()<<endl;
+            //cout<<"wielkosc wyjsciaRad: "<<wyjsciaRad[0]<<endl;
             warstwaLin.uczNeuron(wyjsciaRad,osY[j]);
             //cout<<"p2"<<endl;
         }
         //cout<<"p"<<endl;
-        warstwaLin.zmienWagi(osX.size());
+        //warstwaLin.zmienWagi(osX.size());
         //cout<<"blad: "<<warstwaLin.getE()<<endl;
         //bladX.push_back((double) i/1000);
         //bladY.push_back(warstwaLin.getE());
@@ -95,10 +95,16 @@ int main() {
     main_plot.plot_xy(osX, osY);
     osY.clear();
 
+    double wynik;
+
+
+
     for(int i=0; i<osX.size(); i++){
-        warstwaLin.obliczY(warstwaRad.getY(osX[i]));
-        //cout<<"Y: "<<warstwaLin.getY()<<endl;
-        osY.push_back(warstwaLin.getY());
+        //warstwaLin.obliczY();
+
+        wynik=warstwaLin.getY(warstwaRad.getY(osX[i]));
+        //cout<<"Y: "<<wynik<<endl;
+        osY.push_back(wynik);
     }
 
 

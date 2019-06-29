@@ -4,7 +4,7 @@ NeuronLin::NeuronLin(int n) {
     this->lb_wag = n + 1;
     wagi = new double[lb_wag];
     deltaW = new double[lb_wag];
-    alfa = 0.4;
+    alfa = 0.01;
     beta = 0.4;
     pochodna = new double[lb_wag];
     for (int i = 0; i < lb_wag; i++) {
@@ -15,7 +15,7 @@ NeuronLin::NeuronLin(int n) {
 }
 
 double NeuronLin::random() {
-    return (double) (-100 + rand() % 100) / 100;
+    return (double) (-100 + rand() % 200) / 100;
 }
 
 double NeuronLin::aktywacja(double suma) {
@@ -73,9 +73,16 @@ void NeuronLin::dzielPoch(int N) {
     }
 }
 
-void NeuronLin::zmienWagi() {
-    for (int i = 0; i < lb_wag; i++) {
-        deltaW[i] = -alfa * pochodna[i] + beta * deltaW[i];
-        wagi[i] += deltaW[i];
+void NeuronLin::zmienWagi(vector<double> wejscia, double odp) {
+    double y=suma(wejscia);
+    //cout<<"Y: "<<wejscia[0]<<endl;
+    for (int i = 1; i < lb_wag; i++) {
+        //deltaW[i]=((y - odp) * wejscia[i-1]) - alfa * deltaW[i];
+        //deltaW[i] = -alfa * pochodna[i] + beta * deltaW[i];
+        //wagi[i] += deltaW[i];
+        wagi[i]=wagi[i] - alfa *((y - odp) * wejscia[i-1]);
     }
+    wagi[0]=wagi[0] - alfa * (y - odp);
+    //agi[0] += deltaW[0];
+
 }
